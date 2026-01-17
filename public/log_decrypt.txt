@@ -1,0 +1,2 @@
+=== LOG DECRYPTOR REQUEST ===
+[2025-10-01 13:01:03] File: 20251001_193313_68dd1f89b84f9.png | mime: image/png | cipher(bin): 1779264 bytes | cipher(base64): 2372352 chars | iv(bin): 16 bytes | iv(base64): 24 chars | sig(bin): 72 bytes | sig(base64): 96 chars

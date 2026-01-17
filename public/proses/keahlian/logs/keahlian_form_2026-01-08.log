@@ -1,0 +1,37 @@
+{
+    "timestamp": "2026-01-08 14:24:53",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_keahlian": "KHL_ThNYdrjaq8JhpmVkf3La1I3TiU3bRwYA",
+        "routes": "keahlian",
+        "action": "GTlIhFlDBjP4lGXqIe_EV42e22tSFqirvmnoNgXwU34",
+        "csrf_token": "e2c15176de6836459570d90c9240286e",
+        "nama_keahlian": "Tester",
+        "honeypot": ""
+    },
+    "errors": [
+        "validation.required"
+    ]
+}
+
+{
+    "timestamp": "2026-01-08 14:25:26",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_keahlian": "sb50BTFsYxzBTDn2Nu9oC17eqUvZXiryGz696_o92nKyTzYKrI0FFqLi_ww2PxRcF8shUyA25yNbqHgBWRh3CA",
+        "routes": "keahlian",
+        "action": "y8sTlx2U_7dekYJ_BHvq2g_HYjWyLJH1qQcMK8RbN0A",
+        "csrf_token": "003b76e5bae69090fc296506ad38e0a7",
+        "nama_keahlian": "Testers",
+        "status_mesin": "1",
+        "honeypot": ""
+    },
+    "errors": [
+        "Alat \/ Mesin wajib diisi jika status Alat \/ Mesin Barang adalah Ada."
+    ]
+}
+

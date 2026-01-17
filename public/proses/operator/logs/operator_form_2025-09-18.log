@@ -1,0 +1,19 @@
+{
+    "timestamp": "2025-09-18 15:48:55",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_operator": "bgyq_Tv1NbRONgdACtlZbckRJ7m8U4FBrgBJMUL85QF68bDEhPa-v0EpGFnvak13E4WLxKmiqO_B8Vq3FtoWYQ",
+        "id_user": "US-250715-bd287b15-17525498-16d832b",
+        "routes": "operator",
+        "action": "ToZRnYMRCK6n3Vxzz7VJ23N7ZgTVhpw4ZenVrl69ga8",
+        "csrf_token": "0b03024a88747bcd9c225ead2b0bb27a",
+        "id_keahlian": "KHL_ju4nTCRAHVHVS0UdaBULjaF7PgYA",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID operator maksimal 50 karakter."
+    ]
+}
+

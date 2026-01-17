@@ -1,0 +1,71 @@
+.table td {
+    padding: 8px 8px !important;
+}
+#cari-data {    
+    padding-right: 2.5rem;
+}
+
+#resetButton {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 2;
+    display: none; /* Default state: hidden */
+}
+
+#resetButton i {
+    font-size: 1rem;
+}
+
+#customPagination {
+    justify-content: end;
+}
+
+/* Ubah display pagination bawaan datatable menjadi NONE */
+div.dt-container div.dt-paging ul.pagination {
+    display: none;
+}
+
+/* Animasi untuk perubahan ikon */
+#arrow-icon-transaksi, #arrow-icon-cashback {
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.collapsing #arrow-icon-transaksi, .collapsing #arrow-icon-cashback {
+    opacity: 0.5; /* Ikon sedikit transparan selama transisi */
+}
+
+.dropdown .dropdown-toggle.show {
+    color: #FFF !important;
+    background-color: #F26522 !important;
+    border-color: #F26522 !important;
+}
+
+.w-auto {
+    width: 20% !important;
+}
+
+@media screen and (max-width: 500px) {
+    .w-auto {
+        width: 100% !important;
+    }
+
+    .w-custom {
+        width: 100% !important;
+    }
+
+    .text-wrap {
+        white-space: normal !important;
+        word-wrap: break-word !important;
+        word-break: break-word !important;
+    }
+
+    .btn-mobile{
+        width: 83vw !important;/* Atur tampilan untuk layar */
+        justify-content: center;
+    }
+}

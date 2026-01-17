@@ -1,0 +1,79 @@
+{
+    "timestamp": "2025-09-26 21:01:57",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_keahlian": "DcjHMflwR8On-27o_r0XDUlE2k5j1eQ4NAAaouCSSZ6FMnfaE4CLCGx1rP75LNw2-3t1d2HfgDLDvRSFqRukzw",
+        "routes": "keahlian",
+        "action": "Sz9PitiET0cK5Z_hJzctNdXxFmBpZ6zRjs5bf2WtCZQ",
+        "csrf_token": "b5f01c3544bfb6d46cf222812e371a33",
+        "nama_keahlian": "Tester",
+        "status_mesin": "1",
+        "honeypot": ""
+    },
+    "errors": [
+        "Alat \/ Mesin wajib diisi jika status Alat \/ Mesin Barang adalah Ada."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 21:02:04",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_keahlian": "DcjHMflwR8On-27o_r0XDUlE2k5j1eQ4NAAaouCSSZ6FMnfaE4CLCGx1rP75LNw2-3t1d2HfgDLDvRSFqRukzw",
+        "routes": "keahlian",
+        "action": "Sz9PitiET0cK5Z_hJzctNdXxFmBpZ6zRjs5bf2WtCZQ",
+        "csrf_token": "b5f01c3544bfb6d46cf222812e371a33",
+        "nama_keahlian": "Tester",
+        "status_mesin": "1",
+        "id_alat_mesin": [
+            "ALMES_0MfXBaKNpek0M6K75AwrkZi7IqPwYA"
+        ],
+        "honeypot": ""
+    },
+    "errors": [
+        "Alat \/ Mesin wajib diisi jika status Alat \/ Mesin Barang adalah Ada."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 21:02:41",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_keahlian": "z6F6GkvfcGBFyoXl1tsgkqiHFRIs00huTgK8-AXDcquDdP03F-OBWlJLMdUXYBzKYCDwSgkD2r7sHGG8Rk3V6Q",
+        "routes": "keahlian",
+        "action": "3NG6-X8OnCBDHOg4sZSaPz-ZYunbW6HMmFLDWH-5Z38",
+        "csrf_token": "5ee24b59e8ed168b2810544134f0be4c",
+        "nama_keahlian": "Tester",
+        "status_mesin": "1",
+        "honeypot": ""
+    },
+    "errors": [
+        "Alat \/ Mesin wajib diisi jika status Alat \/ Mesin Barang adalah Ada."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 21:05:19",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_keahlian": "KHL_H7Z7Tb3lCoEv9ZNhGNcH8XMYYMW0PwYA",
+        "routes": "keahlian",
+        "action": "sqe1WJxKcDS0p9raVjbtTWhwJ-M9X4U_wz-6V_0t2Lw",
+        "csrf_token": "cabc24845c6c0dd7a1ff9fb542481899",
+        "nama_keahlian": "Tester",
+        "status_mesin": "1",
+        "honeypot": ""
+    },
+    "errors": [
+        "Alat \/ Mesin wajib diisi jika status Alat \/ Mesin Barang adalah Ada."
+    ]
+}
+

@@ -1,0 +1,26 @@
+{
+    "timestamp": "2025-09-10 13:54:11",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_DK7xUYFCg6ev3ieWFh0o32V1dK1sPgYA",
+        "action": "8ulo2wXxfMoz8K5HjRkXeeTwhMdyXPoTt1FcfCyGRCU",
+        "csrf_token": "6b1b955e3588641d8a7dc800a80d93d4",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "BR-001",
+        "nama_produk": "Tester Produk 002",
+        "id_kategori_produk": "",
+        "harga": "10.000",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "VSXHPoVqaDjiQCZiHyHXS4N50vvUePjp4zH3WW1a8XCVXV9teN",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "<p>Dengan Scissors ini, alat-alat penting Anda tetap terorganisir dan siap digunakan kapan pun dibutuhkan.<\/p>",
+        "honeypot": ""
+    },
+    "errors": [
+        "Kategori produk wajib diisi."
+    ]
+}
+

@@ -1,0 +1,54 @@
+{
+    "timestamp": "2026-01-10 13:55:57",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_history_maintenance": "MTNC_eeQmxYHw7NB8v5Y36KXmVLMWCEDSAYA",
+        "routes": "history-maintenance",
+        "action": "sVonyNftN_J2kFc1MsfL4jpY9J8Nymg8uwC8BVyVGOM",
+        "csrf_token": "01d24b2a799a49f192ea55739a9f5220",
+        "tgl_maintenance": "2026-01-10",
+        "id_jenis_perbaikan": "JENPER_QEz0Lqz2nxYPbNJxXaWWMkRReBjyRwYA",
+        "kategori_perbaikan": "Repair",
+        "petugas_pelaksana": "External",
+        "id_supplier": "SP_04VpBRHjIzCG4bVLMxllytswmiNRAYA",
+        "nama_petugas": "Test",
+        "keterangan_pengerjaan": "test",
+        "honeypot": ""
+    },
+    "errors": [
+        "Nama jam kerja wajib diisi.",
+        "Jam mulai wajib diisi.",
+        "Jam akhir wajib diisi.",
+        "Tipe jam kerja wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2026-01-10 13:59:52",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_history_maintenance": "MTNC_rZhsTV0ZHfdTg2uzdwiFD0G5y4DSAYA",
+        "routes": "history-maintenance",
+        "action": "61k3sPi2kM1kRYWit9Q_eZmNJSqAZ7MLiZrpgvtj-fA",
+        "csrf_token": "01d24b2a799a49f192ea55739a9f5220",
+        "tgl_maintenance": "2026-01-10",
+        "id_jenis_perbaikan": "JENPER_QEz0Lqz2nxYPbNJxXaWWMkRReBjyRwYA",
+        "kategori_perbaikan": "Repair",
+        "petugas_pelaksana": "External",
+        "id_supplier": "SP_04VpBRHjIzCG4bVLMxllytswmiNRAYA",
+        "nama_petugas": "Test",
+        "keterangan_pengerjaan": "test",
+        "honeypot": ""
+    },
+    "errors": [
+        "Nama jam kerja wajib diisi.",
+        "Jam mulai wajib diisi.",
+        "Jam akhir wajib diisi.",
+        "Tipe jam kerja wajib diisi."
+    ]
+}
+

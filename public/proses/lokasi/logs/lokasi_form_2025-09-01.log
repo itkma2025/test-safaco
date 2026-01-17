@@ -1,0 +1,57 @@
+{
+    "timestamp": "2025-09-01 14:48:02",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/139.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_lokasi": "0kkzz-iec3aPlwGXjHE42CHAJ2WK_aVLiAA_1krIPDLgw-xUQduwZT8Nmffayd-ac9k3GFGYeWHbH4Nj2IPaig",
+        "action": "pjEiFNtvE8yVEFs0zUPigAo-85beTEllriavQjNgBVw",
+        "csrf_token": "a4c1c3892e3bbcbce5f2b8d98610167c",
+        "honeypot": ""
+    },
+    "errors": [
+        "Nama lokasi wajib diisi.",
+        "Lantai wajib diisi.",
+        "Area wajib diisi.",
+        "Nomor rak wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-01 14:48:34",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/139.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_lokasi": "pun2je6pgUnVTw9OORNx4G4vOBdThRq71RO1DvoJ6dcpQMOHKjQlB9K6Vx1uetJQj2DRduUFtwMbpzBx_NRjTw",
+        "action": "X5lsgt363Ku3BvklW6eUI122Hxd2f28_eZEdKihNpjU",
+        "csrf_token": "daeb2f5a507f8516fb2b1008b871bdba",
+        "honeypot": ""
+    },
+    "errors": [
+        "Nama lokasi wajib diisi.",
+        "Lantai wajib diisi.",
+        "Area wajib diisi.",
+        "Nomor rak wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-01 14:50:34",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/139.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_lokasi": "piERWA8Esu5f09koR3H3lXEjokxP7aOynI-1UfTHKm_rGqvkJiCse6SVS8w_tpehIxUK3STs3nqvyeoajqMTkg",
+        "action": "814XsxER_Bjam8PVM1k0lEm8IHczB2OpsP7uQ43pbws",
+        "csrf_token": "e3a8948b39fb1b9e7bcd296c0a0c210e",
+        "honeypot": ""
+    },
+    "errors": [
+        "Nama lokasi wajib diisi.",
+        "Lantai wajib diisi.",
+        "Area wajib diisi.",
+        "Nomor rak wajib diisi."
+    ]
+}
+

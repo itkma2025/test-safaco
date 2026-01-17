@@ -1,0 +1,17 @@
+{
+    "timestamp": "2025-09-03 21:14:08",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/139.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_grade": "GRD_FSiPc53vbGWlOY0wWL4MlJL0lTbmPQYA",
+        "action": "OjaRapIvtQvKV0H9qnibmjt0sUv6aKTzsNLTYVp_AdQ",
+        "csrf_token": "2fc03a271eee78d5be4a9668e4789dbe",
+        "grade": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Grade wajib diisi."
+    ]
+}
+

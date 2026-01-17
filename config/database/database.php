@@ -65,6 +65,19 @@ $connect->addConnection([
     'port'      => 3310,
 ], 'kat_produk'); // nama koneksi lain
 
+// Koneksi DB Keterangan Produk
+$connect->addConnection([
+    'driver'    => 'mysql',
+    'host'      => 'localhost',
+    'username'  => 'root',
+    'password'  => '',
+    'database'  => 'test_ketprod',
+    'charset'   => 'utf8mb4',
+    'collation' => 'utf8mb4_unicode_ci',
+    'prefix'    => '',
+    'port'      => 3310,
+], 'ket_produk'); // nama koneksi lain
+
 // Koneksi DB Supplier
 $connect->addConnection([
     'driver'    => 'mysql',
@@ -156,6 +169,9 @@ if ($debugDatabase) {
         // echo "✅ Koneksi user berhasil.<br>";
 
         $connect->getConnection('kat_produk')->getPdo();
+        // echo "✅ Koneksi kategori produk berhasil.<br>";
+
+        $connect->getConnection('ket_produk')->getPdo();
         // echo "✅ Koneksi kategori produk berhasil.<br>";
 
         $connect->getConnection('supplier')->getPdo();

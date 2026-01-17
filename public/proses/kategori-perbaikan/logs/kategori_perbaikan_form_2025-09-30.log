@@ -1,0 +1,19 @@
+{
+    "timestamp": "2025-09-30 09:03:31",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_kategori_perbaikan": "KtKNXRDFL-0HqJkkgDtvlZEbP571jZ1N_Bvh1fbp9N9nWRuaBCaTC-U9Ymx10lgBaxbtSvCc1NmIw8FVev4nGA",
+        "routes": "kategori-perbaikan",
+        "action": "huEaMSGPfPdzPumbCIpNgi0-u4-xAfILtL7UCM9BxIQ",
+        "csrf_token": "1c28258511f492ae37916d8fdfe71060",
+        "nama_kategori": "Repair",
+        "deskripsi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi kategori wajib diisi."
+    ]
+}
+

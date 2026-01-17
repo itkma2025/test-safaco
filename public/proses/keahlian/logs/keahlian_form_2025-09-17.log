@@ -1,0 +1,54 @@
+{
+    "timestamp": "2025-09-17 20:33:08",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_keahlian": "KHL_DotZui5hmB4KlmL3AFe9t8FFy0bPgYA",
+        "routes": "keahlian",
+        "action": "4SHRSQkYJrGnSITnOR2uE4M9AZScffi0lsRAUMLDpkU",
+        "csrf_token": "0a29c1ea18a1d2a94bfa269ddcd48f3d",
+        "nama_keahlian": "Teknisi",
+        "honeypot": ""
+    },
+    "errors": [
+        "keahlian wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 20:33:30",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_keahlian": "KHL_DotZui5hmB4KlmL3AFe9t8FFy0bPgYA",
+        "routes": "keahlian",
+        "action": "4SHRSQkYJrGnSITnOR2uE4M9AZScffi0lsRAUMLDpkU",
+        "csrf_token": "0a29c1ea18a1d2a94bfa269ddcd48f3d",
+        "nama_keahlian": "Teknisi",
+        "honeypot": ""
+    },
+    "errors": [
+        "keahlian wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 20:36:19",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_keahlian": "KHL_u9zq33BJQYyg7nPGLL1ljmsJVLPgYA",
+        "routes": "keahlian",
+        "action": "PdQRNGFyYNYf5iyEAtmKVKOkZS2FJvhnY-Aq4DDlQg4",
+        "csrf_token": "0a29c1ea18a1d2a94bfa269ddcd48f3d",
+        "keahlian": "Tester",
+        "honeypot": ""
+    },
+    "errors": [
+        "Nama keahlian wajib diisi."
+    ]
+}
+

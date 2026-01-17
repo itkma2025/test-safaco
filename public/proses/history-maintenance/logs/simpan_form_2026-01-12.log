@@ -1,0 +1,22 @@
+{
+    "timestamp": "2026-01-12 10:05:12",
+    "type": "database_error",
+    "message": "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_jenis_perbaikan' in 'field list' (Connection: safaco, SQL: insert into `history_maintenance` (`id_history_maintenance`, `tgl_maintenance`, `id_jenis_perbaikan`, `petugas_pelaksana`, `keterangan`, `created_by`) values (MTNC_KvVJPgoAElmqlhYJHeHIq9sHiMoSAYA, 2026-01-12, JENPER_QEz0Lqz2nxYPbNJxXaWWMkRReBjyRwYA, External, test, US-240820-e7604333-17241258-5e4f5cb))",
+    "trace": "#0 D:\\laragon\\www\\SSO-KARSA\\sistem-safaco\\public\\vendor\\illuminate\\database\\Connection.php(776): Illuminate\\Database\\Connection->runQueryCallback('insert into `hi...', Array, Object(Closure))\n#1 D:\\laragon\\www\\SSO-KARSA\\sistem-safaco\\public\\vendor\\illuminate\\database\\MySqlConnection.php(42): Illuminate\\Database\\Connection->run('insert into `hi...', Array, Object(Closure))\n#2 D:\\laragon\\www\\SSO-KARSA\\sistem-safaco\\public\\vendor\\illuminate\\database\\Query\\Builder.php(3747): Illuminate\\Database\\MySqlConnection->insert('insert into `hi...', Array)\n#3 D:\\laragon\\www\\SSO-KARSA\\sistem-safaco\\public\\proses\\history-maintenance\\simpan-data.php(109): Illuminate\\Database\\Query\\Builder->insert(Array)\n#4 D:\\laragon\\www\\SSO-KARSA\\sistem-safaco\\public\\routes\\history-maintenance.php(29): require_once('D:\\\\laragon\\\\www\\\\...')\n#5 {main}",
+    "post_data": {
+        "id_history_maintenance": "MTNC_KvVJPgoAElmqlhYJHeHIq9sHiMoSAYA",
+        "routes": "history-maintenance",
+        "action": "GMo_V3i-1DTUEgyaAFPIKeFOkMMv2pl1dKoegqpQIRY",
+        "csrf_token": "819854abf191e0bb36aa80d129b04537",
+        "tgl_maintenance": "2026-01-12",
+        "id_jenis_perbaikan": "JENPER_QEz0Lqz2nxYPbNJxXaWWMkRReBjyRwYA",
+        "kategori_perbaikan": "Repair",
+        "petugas_pelaksana": "External",
+        "id_supplier": "SP_TvqeoGHMosv7IR9zSLm7UMwqIqNRAYA",
+        "nama_petugas": "Test",
+        "keterangan_pengerjaan": "test",
+        "honeypot": ""
+    },
+    "user_id": "US-240820-e7604333-17241258-5e4f5cb"
+}
+

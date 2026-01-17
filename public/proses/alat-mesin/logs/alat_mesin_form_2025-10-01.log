@@ -1,0 +1,56 @@
+{
+    "timestamp": "2025-10-01 10:10:31",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_rcaW5Bk0bL9Qc87gn5b8jSqlDQQQAYA",
+        "routes": "alat-mesin",
+        "action": "WA4TUM6UI8pZCQ4OeXu8dfAOqXJBIKWaUL4bE3u8ttQ",
+        "csrf_token": "132a2231a7d7b5727ae544f07bd9fcfc",
+        "kode_barang": "<script>alert('XSS')<\/script>",
+        "nama_barang": "scriptalertXSSscript",
+        "kalibrasi": "0",
+        "jenis_barang": "Mesin",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-10-01",
+        "kondisi": "Custom Sendiri (DIY)",
+        "id_supplier": "",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "dataFileName": "<br \/><b>Warning<\/b>:  Undefined variable $filename in <b>D:\\laragon\\www\\SSO-KARSA\\sistem-safaco\\public\\ajax\\perawatan-alat-mesin\\form-perawatan-alat-mesin.php<\/b> on line <b>268<\/b><br \/>",
+        "honeypot": ""
+    },
+    "errors": [
+        "Kode Barang wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-10-01 10:11:33",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_168H3ncGsnABMHL72y47LEU47TgQQAYA",
+        "routes": "alat-mesin",
+        "action": "fTy7HC6yur7ls9GfXpkIOVd-XnuIhZcXA_nO4aJuJeI",
+        "csrf_token": "132a2231a7d7b5727ae544f07bd9fcfc",
+        "kode_barang": "<script>alert('XSS')<\/script>",
+        "nama_barang": "ggfdgsgsgsgsdg",
+        "kalibrasi": "0",
+        "jenis_barang": "Mesin",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-10-01",
+        "kondisi": "Custom Sendiri (DIY)",
+        "id_supplier": "",
+        "id_lokasi": "LOK_DfzwcJzZ55yZAtKQJnithUUvqci5PQYA",
+        "dataFileName": "<br \/><b>Warning<\/b>:  Undefined variable $filename in <b>D:\\laragon\\www\\SSO-KARSA\\sistem-safaco\\public\\ajax\\perawatan-alat-mesin\\form-perawatan-alat-mesin.php<\/b> on line <b>268<\/b><br \/>",
+        "honeypot": ""
+    },
+    "errors": [
+        "Kode Barang wajib diisi."
+    ]
+}
+

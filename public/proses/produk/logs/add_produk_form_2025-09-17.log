@@ -1,0 +1,336 @@
+{
+    "timestamp": "2025-09-17 10:35:05",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_BKRY0Om878gFVgNbnpxMazLCeT2PgYA",
+        "routes": "produk",
+        "action": "jW1lXT3ABLhZTOHKgLn6gKxHoO506zCMuG49PpHVl5A",
+        "csrf_token": "7e74ebbfda4993ca74ccca37d48e6231",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "BR-010",
+        "kode_katalog": "15-305",
+        "nama_produk": "Tester Produk 010",
+        "id_kategori_produk": "KP_63OQtvnmZ7wKKUtVhr1xkE9BgA",
+        "harga": "0",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_DfzwcJzZ55yZAtKQJnithUUvqci5PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:36:51",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_NjTOl9ijqveoZDrrQJATVujx2PgYA",
+        "routes": "produk",
+        "action": "yZ138fKboUY71mAZXXBA4EH8IJllEVM5d-CdoBST8A4",
+        "csrf_token": "9366979b1fcfe0b70d0a2f99048381e3",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "BR-0010",
+        "kode_katalog": "15-300",
+        "nama_produk": "Tester Produk 10",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "10.000",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:38:15",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_wAINuV1ZGVWXVgnjkH6Fdt0f0vT2PgYA",
+        "routes": "produk",
+        "action": "7UH-ynwbB-G135Q7NA8KkXJlKF_p9naZ1nf5HKysGzo",
+        "csrf_token": "7385d770ce370eb801297e789327358c",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "BR-0010",
+        "kode_katalog": "15-303",
+        "nama_produk": "Tester Produk 010",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "10.000",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:43:09",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_W8OyluJvsMaRV88JucW3Xwf3PgYA",
+        "routes": "produk",
+        "action": "g4XFfZqo_IgGZUDyC1ZVLmu0FEkOSnKM5QL46ewUshU",
+        "csrf_token": "83bc8d2caafe278fca19e35637f35ef2",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "BR-0010",
+        "kode_katalog": "15-300",
+        "nama_produk": "Tester Produk 010",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "0",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:45:14",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_4y5QIerb7WpsxIhsj7SfBz6Gsg73PgYA",
+        "routes": "produk",
+        "action": "vJaWeRBa0u_ojyeDnI1e7bU7MTufGvthFdPJ0fVjHUU",
+        "csrf_token": "69c6873728bfc63cee7b9287bbd182ce",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "BR-0010",
+        "kode_katalog": "15-300",
+        "nama_produk": "Tester Produk 10",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "10.000",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:46:48",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_y1qKsLVgPTFj9oJTEoCdEBKyqhT3PgYA",
+        "routes": "produk",
+        "action": "KnPt0Brv6VRteTOwzf4u5g6alYHQ8uCI9aIKpOS3G9g",
+        "csrf_token": "663519b930b29d76248035006c7d2856",
+        "id_produk_master": "PRD_rE2SHuDoUWEc9viWd0lwFkwBgA",
+        "kode_produk": "TesterIT23",
+        "kode_katalog": "15-300",
+        "nama_produk": "Tester Produk",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "0",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:48:50",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_b61uRKMmXYEYcXKum60zMeI1hv3PgYA",
+        "routes": "produk",
+        "action": "4h7GY7ggu03-QsQTZLuU33OOUdGHMWk22zB_yDGOALg",
+        "csrf_token": "08dca3642d5643a58c34691dbcc0261a",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "TesterIT23",
+        "kode_katalog": "15-300",
+        "nama_produk": "Tester Produk",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "10.000",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:55:09",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_F5eYqJNXQ6TLMnAZMMDR9xTabTL3PgYA",
+        "routes": "produk",
+        "action": "h4OwYML1LDj5w_jZU04tKWTqkx1pm7QeiyNzq4oXCsI",
+        "csrf_token": "a79f2c0005845cacb72ffc9441620819",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "TesterIT23",
+        "kode_katalog": "15-300",
+        "nama_produk": "Tester Produk",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "10.000",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:55:48",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_X79zXrjO3HEwejUsSQ0im2ou5DT3PgYA",
+        "routes": "produk",
+        "action": "8v5AjcTe2YrjJOEmqyAXl_ItF2asT9dbw5XZZR34zc0",
+        "csrf_token": "8e236fcc828f8fe6017a776be58d55c1",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "TesterIT23",
+        "kode_katalog": "15-300",
+        "nama_produk": "Tester Produk",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "100.000",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:57:40",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_lZBodConEIOyzEVb8iNaACcjv3PgYA",
+        "routes": "produk",
+        "action": "i0srYHtKuYjM8Rw5yLuFfHbNvA0S5jiCO-20PSN7bL0",
+        "csrf_token": "b32268f6b7d1d80b8b7837eadc3d30c0",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "TesterIT23",
+        "kode_katalog": "15-300",
+        "nama_produk": "Tester Produk",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "10.000",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:57:44",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_lZBodConEIOyzEVb8iNaACcjv3PgYA",
+        "routes": "produk",
+        "action": "i0srYHtKuYjM8Rw5yLuFfHbNvA0S5jiCO-20PSN7bL0",
+        "csrf_token": "b32268f6b7d1d80b8b7837eadc3d30c0",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "TesterIT23",
+        "kode_katalog": "15-300",
+        "nama_produk": "Tester Produk",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "10.000",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-17 10:58:35",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk": "PRD_b1dWXEzMJhFzRCyhR0BrXFg3sD73PgYA",
+        "routes": "produk",
+        "action": "N3ptURSehKJxb1QrIBkRqgwwgRYSOV0aJMr_nztq57M",
+        "csrf_token": "50db13f678216d3e581b4e657069f84e",
+        "id_produk_master": "PM_sPJVwIDMk9Hl36JQwiKA9BgA",
+        "kode_produk": "TesterIT23",
+        "kode_katalog": "15-300",
+        "nama_produk": "Tester Produk",
+        "id_kategori_produk": "KP_axlEyTsKfzNKY9SMn5tIEdc7BgA",
+        "harga": "10.000",
+        "satuan_produk": "pcs",
+        "id_kategori_penjualan": "KAT_JUAL_RtsKo9ICUYX6sy86WPcDPtSXOPQYA",
+        "id_grade_produk": "GRD_TrpFlISyDI3zLPv4MZnksXr3iLRPgYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Deskripsi produk wajib diisi."
+    ]
+}
+

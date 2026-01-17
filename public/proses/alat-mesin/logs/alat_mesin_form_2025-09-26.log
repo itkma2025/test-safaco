@@ -1,0 +1,445 @@
+{
+    "timestamp": "2025-09-26 08:24:18",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ky0yFXOp0mr3PkfdN4kNrqt6GyxW7HHg9X_zrsabr2YVv7f6kkltE08AH5VFAP2Zjnzt2WbXVFqDEuRFPJWRdg",
+        "routes": "alat-mesin",
+        "action": "u0ROzP_D4H2rLCDub6gA2eXgtMeM0RJlCYoaHkXv4zg",
+        "csrf_token": "5eec80802518cb67b5fb788a1cc211e4",
+        "kode_barang": "005",
+        "nama_barang": "abc",
+        "kalibrasi": "1",
+        "jenis_barang": "Alat",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-09-24",
+        "kondisi": "Baru",
+        "id_supplier": "SP_7ukAveXcU2wQe5NcTY5rCMiDHIjzPAYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "honeypot": ""
+    },
+    "errors": [
+        "Merk Barang wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 08:24:22",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ky0yFXOp0mr3PkfdN4kNrqt6GyxW7HHg9X_zrsabr2YVv7f6kkltE08AH5VFAP2Zjnzt2WbXVFqDEuRFPJWRdg",
+        "routes": "alat-mesin",
+        "action": "u0ROzP_D4H2rLCDub6gA2eXgtMeM0RJlCYoaHkXv4zg",
+        "csrf_token": "5eec80802518cb67b5fb788a1cc211e4",
+        "kode_barang": "005",
+        "nama_barang": "abc",
+        "kalibrasi": "1",
+        "jenis_barang": "Alat",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-09-24",
+        "kondisi": "Baru",
+        "id_supplier": "SP_7ukAveXcU2wQe5NcTY5rCMiDHIjzPAYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "honeypot": ""
+    },
+    "errors": [
+        "Merk Barang wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 08:24:29",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ky0yFXOp0mr3PkfdN4kNrqt6GyxW7HHg9X_zrsabr2YVv7f6kkltE08AH5VFAP2Zjnzt2WbXVFqDEuRFPJWRdg",
+        "routes": "alat-mesin",
+        "action": "u0ROzP_D4H2rLCDub6gA2eXgtMeM0RJlCYoaHkXv4zg",
+        "csrf_token": "5eec80802518cb67b5fb788a1cc211e4",
+        "kode_barang": "005",
+        "nama_barang": "abc",
+        "kalibrasi": "1",
+        "jenis_barang": "Alat",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-09-24",
+        "kondisi": "Baru",
+        "id_supplier": "SP_7ukAveXcU2wQe5NcTY5rCMiDHIjzPAYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "honeypot": ""
+    },
+    "errors": [
+        "Merk Barang wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 08:27:36",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "pSp8Hov1O2gWAtI5BtI9remf_D8INvw0aFts6xk5usuyN2WPdHJx2EvbMbk5FlRk7jpeVoST8-byvnmvWH-HCg",
+        "routes": "alat-mesin",
+        "action": "yVSsewhRP03IAzmusS4giJh4LcjSYpj3v8J9ERoniaY",
+        "csrf_token": "5eec80802518cb67b5fb788a1cc211e4",
+        "kode_barang": "005",
+        "nama_barang": "abc",
+        "kalibrasi": "1",
+        "jenis_barang": "Alat",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-09-24",
+        "kondisi": "Baru",
+        "id_supplier": "SP_7ukAveXcU2wQe5NcTY5rCMiDHIjzPAYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "honeypot": ""
+    },
+    "errors": [
+        "Merk Barang wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 09:13:17",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_zHp8FdRhzftEu9a2TaHoPdZtKqPwYA",
+        "routes": "alat-mesin",
+        "action": "dKFG_5OPyaFrQbCPN6kMkozxfcwOs3GJf71SvjSfCo0",
+        "csrf_token": "727850550ced608aa43b77e4f4bae487",
+        "kode_barang": "gjg",
+        "nama_barang": "abcgjgj",
+        "kalibrasi": "1",
+        "jenis_barang": "Alat",
+        "status_merk": "1",
+        "id_merk": "MERK_CQSJ3vQXNHXumT3FAEmyENc7BgA",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Baru",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "ID Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 09:13:21",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_zHp8FdRhzftEu9a2TaHoPdZtKqPwYA",
+        "routes": "alat-mesin",
+        "action": "dKFG_5OPyaFrQbCPN6kMkozxfcwOs3GJf71SvjSfCo0",
+        "csrf_token": "727850550ced608aa43b77e4f4bae487",
+        "kode_barang": "gjg",
+        "nama_barang": "abcgjgj",
+        "kalibrasi": "1",
+        "jenis_barang": "Alat",
+        "status_merk": "1",
+        "id_merk": "MERK_CQSJ3vQXNHXumT3FAEmyENc7BgA",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Baru",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "ID Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 09:14:09",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_zHp8FdRhzftEu9a2TaHoPdZtKqPwYA",
+        "routes": "alat-mesin",
+        "action": "dKFG_5OPyaFrQbCPN6kMkozxfcwOs3GJf71SvjSfCo0",
+        "csrf_token": "727850550ced608aa43b77e4f4bae487",
+        "kode_barang": "gjg",
+        "nama_barang": "abcgjgj",
+        "kalibrasi": "1",
+        "jenis_barang": "Alat",
+        "status_merk": "1",
+        "id_merk": "MERK_CQSJ3vQXNHXumT3FAEmyENc7BgA",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Baru",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "ID Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 09:14:30",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_6jMf1cjBW4PMmiRxB3x0PPo8s9eqPwYA",
+        "routes": "alat-mesin",
+        "action": "CmGsV0vNzntIGEL2hIO9FvwoLAMMJWqMUtKktAMxJoo",
+        "csrf_token": "727850550ced608aa43b77e4f4bae487",
+        "kode_barang": "kghkghk",
+        "nama_barang": "khkhkhgk",
+        "kalibrasi": "1",
+        "jenis_barang": "Alat",
+        "status_merk": "1",
+        "id_merk": "MERK_CQSJ3vQXNHXumT3FAEmyENc7BgA",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Baru",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "ID Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 09:23:12",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_DR41UxTKZ4ArohkkRUs50ohcfaqPwYA",
+        "routes": "alat-mesin",
+        "action": "1FpI1dBAB3RJqWmlF_b8IHAeFl0kmybIHBi33oo4D0o",
+        "csrf_token": "727850550ced608aa43b77e4f4bae487",
+        "kode_barang": "001vdv",
+        "nama_barang": "dddfdfdf",
+        "kalibrasi": "0",
+        "jenis_barang": "Mesin",
+        "status_merk": "1",
+        "id_merk": "MERK_CQSJ3vQXNHXumT3FAEmyENc7BgA",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Baru",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "ID Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 09:25:41",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_4PMN1lEvXsQPv7vGXAaoj1vfqPwYA",
+        "routes": "alat-mesin",
+        "action": "XV0aPdf8P8AACgNcd04QuohE99CJQoXTAhkdhTxzktk",
+        "csrf_token": "727850550ced608aa43b77e4f4bae487",
+        "kode_barang": "001",
+        "nama_barang": "abc",
+        "kalibrasi": "0",
+        "jenis_barang": "Alat",
+        "status_merk": "1",
+        "id_merk": "MERK_CQSJ3vQXNHXumT3FAEmyENc7BgA",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Baru",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 10:49:34",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_rryBHqeezdAkUXyKPeh6RbDkfyusPwYA",
+        "routes": "alat-mesin",
+        "action": "qRugjwKImQHm7eonAtBaT3UEJqnGg3Q1QOFb4l85Akc",
+        "csrf_token": "411463b7121fe68941ce6160aaf5cc6e",
+        "kode_barang": "001gg",
+        "nama_barang": "abc",
+        "kalibrasi": "0",
+        "jenis_barang": "Mesin",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Bekas",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 10:50:01",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_rryBHqeezdAkUXyKPeh6RbDkfyusPwYA",
+        "routes": "alat-mesin",
+        "action": "qRugjwKImQHm7eonAtBaT3UEJqnGg3Q1QOFb4l85Akc",
+        "csrf_token": "411463b7121fe68941ce6160aaf5cc6e",
+        "kode_barang": "001gg",
+        "nama_barang": "abc",
+        "kalibrasi": "0",
+        "jenis_barang": "Mesin",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Bekas",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 10:55:39",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_0rABBLORrYKUqck7qX8mINS0DqsPwYA",
+        "routes": "alat-mesin",
+        "action": "u6UGTAnhb6E7ZDwiG1y2NtGdQSCgS56tLERx0_cfz18",
+        "csrf_token": "411463b7121fe68941ce6160aaf5cc6e",
+        "kode_barang": "001hth",
+        "nama_barang": "abcrherh",
+        "kalibrasi": "0",
+        "jenis_barang": "Mesin",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Bekas",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 11:19:11",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_kdmFcDaC0arYDovxF4ZQPElk5WsPwYA",
+        "routes": "alat-mesin",
+        "action": "8fVlzHTjAUcxAb3dB0ZzTl50gkxlPwNfmF5YiCTM-gI",
+        "csrf_token": "411463b7121fe68941ce6160aaf5cc6e",
+        "kode_barang": "001dgdgds",
+        "nama_barang": "abcd",
+        "kalibrasi": "0",
+        "jenis_barang": "Mesin",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Bekas",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 13:15:31",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_Ev0naGXCgvdha2RC022MZPKvZTWuPwYA",
+        "routes": "alat-mesin",
+        "action": "5S1IHrGCxQPD0IUqTM0rUuu-TiIOCJcmjGriHMuFNSE",
+        "csrf_token": "e3f1a04ce00d684e38ea8afe47fc5b52",
+        "kode_barang": "fsafasf",
+        "nama_barang": "abc",
+        "kalibrasi": "0",
+        "jenis_barang": "Mesin",
+        "status_merk": "0",
+        "id_merk": "",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Bekas",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "Lokasi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2025-09-26 13:15:41",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/140.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_alat_mesin": "ALMES_Ev0naGXCgvdha2RC022MZPKvZTWuPwYA",
+        "routes": "alat-mesin",
+        "action": "5S1IHrGCxQPD0IUqTM0rUuu-TiIOCJcmjGriHMuFNSE",
+        "csrf_token": "e3f1a04ce00d684e38ea8afe47fc5b52",
+        "kode_barang": "fsafasf",
+        "nama_barang": "abc",
+        "kalibrasi": "0",
+        "jenis_barang": "Mesin",
+        "status_merk": "1",
+        "id_merk": "",
+        "tgl_pembelian": "2025-09-26",
+        "kondisi": "Bekas",
+        "id_supplier": "",
+        "id_lokasi": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID Merk wajib diisi jika status merk Barang adalah Ada.",
+        "Supplier wajib diisi jika kondisi Barang adalah Baru atau Bekas.",
+        "Lokasi wajib diisi."
+    ]
+}
+
