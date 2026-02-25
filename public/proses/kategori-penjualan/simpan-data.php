@@ -61,8 +61,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'kategori_penjualan'       => 'required|string|max:30|regex:/^[a-zA-Z\s]+$/',
             'min_stock'                => 'required|max:9|regex:/^\d{1,3}(\.\d{3})*$/',
             'max_stock'                => 'required|max:9|regex:/^\d{1,3}(\.\d{3})*$/',
-            'min_stock_ready'          => 'required|max:9|regex:/^\d{1,3}(\.\d{3})*$/',
-            'max_stock_ready'          => 'required|max:9|regex:/^\d{1,3}(\.\d{3})*$/',
         ],
         // Custom Messages
         [   // Custom error messages kategori penjualan
@@ -84,17 +82,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'max_stock.required'   => 'Max stock wajib diisi.',
             'max_stock.max'        => 'Max stock maksimal 9 karakter.',
             'max_stock.regex'      => 'Format max stock hanya boleh angka.',
-
-            // Custom error messages min stock ready
-            'min_stock_ready.required'   => 'Min stock ready wajib diisi.',
-            'min_stock_ready.max'        => 'Min stock ready maksimal 9 karakter.',
-            'min_stock_ready.regex'      => 'Format min stock ready hanya boleh angka.',
-
-            // Custom error messages max stock ready
-            'max_stock_ready.required'   => 'Max stock ready wajib diisi.',
-            'max_stock_ready.max'        => 'Max stock ready maksimal 9 karakter.',
-            'max_stock_ready.regex'      => 'Format max stock ready hanya boleh angka.',
-
         ]
     );
 
@@ -153,8 +140,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'kategori_penjualan'      => $sanitasi_post['kategori_penjualan'],
             'min_stock'               => str_replace('.', '', $sanitasi_post['min_stock']),
             'max_stock'               => str_replace('.', '', $sanitasi_post['max_stock']),
-            'min_stock_ready'         => str_replace('.', '', $sanitasi_post['min_stock_ready']),
-            'max_stock_ready'         => str_replace('.', '', $sanitasi_post['max_stock_ready']),
             'created_by'              => $_SESSION['id_user']
         ];
         

@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-02-12 15:52:48",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_spk_produksi": "BCqAgBi_KUHti0wlfObvyhpd8aU0I-NfAJbfctbpxNo7okkVQNjf431Y_Nl4tYWcvBS4yWxWODhqcdR8WCTv3g",
+        "id_produk": "PRD_KpzOAHPboYG0wTfW0832aOOt1uncRwYA"
+    },
+    "errors": [
+        "ID SPK Produksi maksimal 50 karakter."
+    ]
+}
+

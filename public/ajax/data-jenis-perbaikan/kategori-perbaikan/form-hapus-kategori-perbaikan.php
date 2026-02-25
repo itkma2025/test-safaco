@@ -37,7 +37,7 @@
         // Header
         ?>
             <div class="modal-header">
-                <h5 class="modal-title w-100 text-center" id="staticBackdropLabel">Konfirmasi Hapus Data grade</h5>
+                <h5 class="modal-title w-100 text-center" id="staticBackdropLabel">Konfirmasi Hapus Data Kategori Perbaikan</h5>
             </div>
         <?php
         if ($kategori_perbaikan) {

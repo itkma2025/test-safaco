@@ -1,0 +1,54 @@
+{
+    "timestamp": "2026-02-18 13:55:05",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_jenis_permintaan": "KiuYlPgrkcR3ifaBgiROoqysa58cIdi3oDCPRwetKZ8towfAJTQdDHO38sJZ1Cl4vps_273stMo0qBgKS9jQAQ",
+        "routes": "jenis-permintaan",
+        "action": "YziuQDExZZqrF6qTvevVvYKF0xoNf2Wr83R422imlks",
+        "csrf_token": "5dbc7685100c0f4d2023dfa3504016d3",
+        "nama_jenis_permintaan": "Test123",
+        "honeypot": ""
+    },
+    "errors": [
+        "Format nama jenis produksi hanya boleh huruf dan spasi."
+    ]
+}
+
+{
+    "timestamp": "2026-02-18 14:03:07",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_jenis_permintaan": "6So670Jn2cigwcdO0A_NU1Dcwbap8CNf-Y9q4E9hWsYaUzfz1jRd2NDly8x5-zOSLp3F-_P8M7bX9oj_iyxxeg",
+        "routes": "jenis-permintaan",
+        "action": "0Sqwbetqht7tQ1HW8N1vzm1-JXlzpnfznzE0HbsjP3s",
+        "csrf_token": "5dbc7685100c0f4d2023dfa3504016d3",
+        "nama_jenis_permintaan": "Test12",
+        "honeypot": ""
+    },
+    "errors": [
+        "Format nama jenis produksi hanya boleh huruf dan spasi."
+    ]
+}
+
+{
+    "timestamp": "2026-02-18 14:05:24",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_jenis_permintaan": "VL3GKONjm-pew-l0Y4UWBJ8Lq6S1tBl-ZvySSeSwETBJiXldp4ZgJv8cX5Yvm42SIO0vkjZICKtpqbUfGKbQVQ",
+        "routes": "jenis-permintaan",
+        "action": "B0ed9WsR_6_eA1PDHzE3SbpSgTwc4ayD5SpPKwii4A0",
+        "csrf_token": "5dbc7685100c0f4d2023dfa3504016d3",
+        "nama_jenis_permintaan": "Test123",
+        "honeypot": ""
+    },
+    "errors": [
+        "Format nama jenis permintaan hanya boleh huruf dan spasi."
+    ]
+}
+

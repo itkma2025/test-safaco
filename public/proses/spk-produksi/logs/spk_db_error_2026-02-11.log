@@ -1,0 +1,35 @@
+{
+    "timestamp": "2026-02-11 08:35:15",
+    "type": "db_exception",
+    "message": "SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'spk_produksi.PRIMARY' (Connection: safaco, SQL: insert into `spk_produksi` (`no_spk`, `nama_spk`, `tgl_spk`, `tgl_mulai`, `tgl_akhir`, `id_jenis_produksi`, `id_jenis_pengerjaan`, `prioritas_produksi`, `created_by`) values (001\/SPK\/II\/2026, AAAA, 2026-02-10, 2026-02-09 00:00:00, 2026-02-09 00:00:00, JENPRO_CvqFr4RXcmRx2ys9tuXMhlUIKSgYA, JENPRO_e5MNat4PRs4jHyno7OeQcK558eSgYA, Low, US-240820-e7604333-17241258-5e4f5cb))",
+    "code": "23000",
+    "file": "D:\\laragon\\www\\SSO-KARSA\\sistem-safaco\\public\\vendor\\illuminate\\database\\Connection.php",
+    "line": 817,
+    "sql_state": null,
+    "post_data": {
+        "id_spk_produksi": "53zW3-2HfBOVQWew-UHUy6awgKuBgQpK2HwsHIOTbSeodzPo98vpnJzmPefnDU4Eo6NCAwxJ0o-avHdGqgApwA",
+        "routes": "spk-produksi",
+        "action": "GL8E3YNAnUZ99oSNBBtO4mhCwZzrD1cPgsoYj6fbUbo",
+        "csrf_token": "99f51015e9746317d7bac17b2fc6c3f0",
+        "no_spk": "001\/SPK\/II\/2026",
+        "nama_spk": "AAAA",
+        "tgl_spk": "2026-02-10",
+        "tgl_mulai": "2026-02-09T00:00",
+        "tgl_akhir": "2026-02-09T00:00",
+        "id_jenis_produksi": "JENPRO_CvqFr4RXcmRx2ys9tuXMhlUIKSgYA",
+        "id_jenis_pengerjaan": "JENPRO_e5MNat4PRs4jHyno7OeQcK558eSgYA",
+        "prioritas_produksi": "Low",
+        "honeypot": ""
+    },
+    "insert_data": {
+        "no_spk": "001\/SPK\/II\/2026",
+        "nama_spk": "AAAA",
+        "tgl_spk": "2026-02-10",
+        "tgl_mulai": "2026-02-09 00:00:00",
+        "tgl_akhir": "2026-02-09 00:00:00",
+        "id_jenis_produksi": "JENPRO_CvqFr4RXcmRx2ys9tuXMhlUIKSgYA",
+        "id_jenis_pengerjaan": "JENPRO_e5MNat4PRs4jHyno7OeQcK558eSgYA",
+        "prioritas_produksi": "Low",
+        "created_by": "US-240820-e7604333-17241258-5e4f5cb"
+    }
+}

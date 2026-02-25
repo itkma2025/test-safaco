@@ -1,0 +1,27 @@
+{
+    "timestamp": "2026-02-18 09:06:05",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_spk_produksi": "SPK_HI6PiXkCIblE6QRGnHAkjg3hjZ4PSwYA",
+        "routes": "spk-produksi",
+        "action": "I1uB55WQHr1hfwlZnrsZWK0OTXTYVqXpWbRH17l1LSc",
+        "csrf_token": "953d756005ecf2e05c33cbc6d1c7e8d1",
+        "no_spk": "003\/SPK\/SKM-PJT\/II\/2026",
+        "nama_spk": "Produksi Grave Vaginal Large",
+        "tgl_spk": "2026-02-18",
+        "tgl_mulai": "2026-02-18T09:05",
+        "tgl_akhir": "2026-02-18T14:10",
+        "id_jenis_produksi": "JEN_PRODUKSIZZnaGOZ8x3YYzjMVSIjW7QQoPiLSgYA",
+        "id_jenis_pengerjaan": "JENPRO_e5MNat4PRs4jHyno7OeQcK558eSgYA",
+        "prioritas_produksi": "Normal",
+        "catatan": "Tester",
+        "honeypot": "",
+        "status_spk": "Draft"
+    },
+    "errors": [
+        "Catatan minimal 20 karakter."
+    ]
+}
+

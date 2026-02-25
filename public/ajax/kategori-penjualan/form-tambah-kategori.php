@@ -50,20 +50,6 @@
                 <input type="text" name="max_stock" class="form-control" maxlength="9" oninput="filterNonNumeric(this); preventLeadingZero(this); formatRibuan(this);" required>
             </div>
         </div>
-
-        <div class="mb-3 row">
-            <label class="form-label col-md-3">Min Stock Ready</label>
-            <div class="col-md-9">
-                <input type="text" name="min_stock_ready" class="form-control" maxlength="9" oninput="filterNonNumeric(this); preventLeadingZero(this); formatRibuan(this);" required>
-            </div>
-        </div>
-
-        <div class="mb-3 row">
-            <label class="form-label col-md-3">Max Stock Ready</label>
-            <div class="col-md-9">
-                <input type="text" name="max_stock_ready" class="form-control" maxlength="9" oninput="filterNonNumeric(this); preventLeadingZero(this); formatRibuan(this);" required>
-            </div>
-        </div>
     </div>
     <!-- Honeypot Field: Tersembunyi dari Pengguna -->
     <div style="display:none;">

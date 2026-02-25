@@ -32,9 +32,7 @@
                         'id_kategori_penjualan',
                         'kategori_penjualan',
                         'min_stock',
-                        'max_stock',
-                        'min_stock_ready',
-                        'max_stock_ready'
+                        'max_stock'
                     )
                     ->where('id_kategori_penjualan', $id_kategori)
                     ->first();
@@ -70,20 +68,6 @@
                             <label class="form-label col-md-3">Max Stock</label>
                             <div class="col-md-9">
                                 <input type="text" name="max_stock" class="form-control" maxlength="9" value="<?= number_format($kategori->max_stock, 0,'.','.') ?>" oninput="filterNonNumeric(this); preventLeadingZero(this); formatRibuan(this);" required>
-                            </div>
-                        </div>
-
-                        <div class="mb-3 row">
-                            <label class="form-label col-md-3">Min Stock Ready</label>
-                            <div class="col-md-9">
-                                <input type="text" name="min_stock_ready" class="form-control" maxlength="9" value="<?= number_format($kategori->min_stock_ready, 0,'.','.') ?>" oninput="filterNonNumeric(this); preventLeadingZero(this); formatRibuan(this);" required>
-                            </div>
-                        </div>
-
-                        <div class="mb-3 row">
-                            <label class="form-label col-md-3">Max Stock Ready</label>
-                            <div class="col-md-9">
-                                <input type="text" name="max_stock_ready" class="form-control" maxlength="9" value="<?= number_format($kategori->max_stock_ready, 0,'.','.') ?>" oninput="filterNonNumeric(this); preventLeadingZero(this); formatRibuan(this);" required>
                             </div>
                         </div>
                     </div>

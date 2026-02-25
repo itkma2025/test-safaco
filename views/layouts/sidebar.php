@@ -66,7 +66,7 @@ function isActive($active, $expected) {
                     <ul>
                         <li class="<?= isActive($active_menu ?? '', 'dashboard') ?>">
                             <a href="dashboard.php">
-                                <i class="ti ti-dashboard"></i><span>Dashboard</span>
+                                <i class="fe fe-dashboard"></i><span>Dashboard</span>
                             </a>
                         </li>
                     </ul>
@@ -76,22 +76,22 @@ function isActive($active, $expected) {
                     <ul>
                         <li class="<?= isActive($active_menu ?? '', 'data-instansi') ?>">
                             <a href="data-instansi.php">
-                                <i class="ti ti-home"></i><span>Data Instansi</span>
+                                <i class="fe fe-home"></i><span>Data Instansi</span>
                             </a>
                         </li>
                         <li>
                             <a href="<?= $domain_customer . "?url=" . $currentUrl ?>" target="_blank">
-                                <i class="ti ti-user"></i><span>Data Customer</span>
+                                <i class="fe fe-user"></i><span>Data Customer</span>
                             </a>
                         </li>
                         <li class="<?= isActive($active_menu ?? '', 'data-sales') ?>">
                             <a href="data-sales.php">
-                                <i class="ti ti-user"></i><span>Data Sales</span>
+                                <i class="fe fe-user"></i><span>Data Sales</span>
                             </a>
                         </li>
                         <li class="submenu">
                             <a href="#" class="<?= isActive($active_menu ?? '', 'data-wilayah') ?> <?= ($active_menu ?? '') === 'data-wilayah' ? 'subdrop' : '' ?>">
-                                <i class="ti ti-map"></i><span>Data Wilayah</span>
+                                <i class="fe fe-map"></i><span>Data Wilayah</span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
@@ -119,17 +119,17 @@ function isActive($active, $expected) {
                         </li>
                         <li class="<?= isActive($active_menu ?? '', 'data-operator') ?>">
                             <a href="data-operator.php?action=operator"">
-                                <i class="ti ti-user"></i><span>Operator Management</span>
+                                <i class="fe fe-user"></i><span>Operator Management</span>
                             </a>
                         </li>
                         <li class="<?= isActive($active_menu ?? '', 'data-jadwal-kerja') ?>">
                             <a href="data-jadwal-kerja.php?action=jadwal-kerja">
-                                <i class="ti ti-clipboard"></i><span>Work Schedule Management</span>
+                                <i class="fe fe-clipboard"></i><span>Work Schedule Management</span>
                             </a>
                         </li>
                         <li>
                             <a href="<?= $domain_supplier . "?url=" . $currentUrl ?>" target="_blank">
-                                <i class="ti ti-truck"></i><span>Data Supplier / Vendor</span>
+                                <i class="fe fe-truck"></i><span>Data Supplier / Vendor</span>
                             </a>
                         </li>
                     </ul>
@@ -137,50 +137,69 @@ function isActive($active, $expected) {
                 <li class="menu-title"><span>Data Produk</span></li>
                 <li>
                     <ul>
-                       <li class="submenu">
+                        <li class="submenu">
                             <a href="#" class="<?= isActive($active_menu ?? '', 'data-produk') ?> <?= ($active_menu ?? '') === 'data-produk' ? 'subdrop' : '' ?>">
-                                <i class="ti ti-package"></i><span>Data Produk</span>
+                                <i class="fe fe-package"></i><span>Data Produk</span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
                                 <li>
-                                    <a href="data-produk.php?action=produk" class="<?= isActive($active_submenu  ?? '', 'produk') ?>">
-                                        Produk
+                                    <a href="data-produk.php?action=produk-satuan" class="<?= isActive($active_submenu  ?? '', 'produk-satuan') ?>">
+                                        Produk Satuan
                                     </a>
                                 </li>
                                 <li>
-                                     <a href="data-produk.php?action=kategori-penjualan" class="<?= isActive($active_submenu  ?? '', 'kategori-penjualan') ?>">
-                                        Kategori Penjualan
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="data-produk.php?action=lokasi" class="<?= isActive($active_submenu  ?? '', 'lokasi') ?>">
-                                        Lokasi Produk
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="data-produk.php?action=grade" class="<?= isActive($active_submenu  ?? '', 'grade') ?>">
-                                        Grade Produk
+                                    <a href="data-produk.php?action=produk-set" class="<?= isActive($active_submenu  ?? '', 'produk-set') ?>">
+                                        Produk Set
                                     </a>
                                 </li>
                             </ul>
                         </li>
+                        <li class="<?= isActive($active_menu ?? '', 'kategori-penjualan') ?>">
+                            <a href="data-produk.php?action=kategori-penjualan">
+                                <i class="fe fe-grid"></i><span>Kategori Penjualan</span>
+                            </a>
+                        </li>
+                        <li class="<?= isActive($active_menu ?? '', 'lokasi-produk') ?>">
+                            <a href="data-produk.php?action=lokasi">
+                                <i class="fe fe-map-pin"></i><span>Lokasi Produk</span>
+                            </a>
+                        </li class="<?= isActive($active_menu ?? '', 'grade-produk') ?>">
+                        <li>
+                            <a href="data-produk.php?action=grade">
+                                <i class="fe fe-layers"></i><span>Grade Produk</span>
+                            </a>
+                        </li>
                         <li>
                             <a href="<?= $domain_kategori_produk . "?url=" . $currentUrl ?>" target="_blank">
-                                <i class="ti ti-list"></i><span>Kategori Produk & Merk</span>
+                                <i class="fe fe-grid"></i><span>Kategori Produk & Merk</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="ti ti-files"></i><span>Dead Stock Reporting</span>
+                                <i class="fe fe-file"></i><span>Dead Stock Reporting</span>
                             </a>
                         </li>						
                         <li class="submenu">
                             <a href="#">
-                                <i class="ti ti-download"></i><span>Produk Masuk</span>
+                                <i class="fe fe-download"></i><span>Produk Masuk</span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
+                                <li class="submenu">
+                                    <a href="#">
+                                        <i class="fe fe-package"></i><span>Karsa</span>
+                                        <span class="menu-arrow"></span>
+                                    </a>
+                                    <ul>
+                                        <a href="jenis-permintaan.php?action=view">
+                                            Jenis Permintaan
+                                        </a>
+                                        <a href="produk-masuk.php?action=karsa">
+                                            Data Permintaan
+                                        </a>
+                                    </ul>
+                                </li>
                                 <li><a href="#">Import</a></li>
                                 <li><a href="#">Produk Set E-Catalogue</a></li>
                             </ul>
@@ -192,7 +211,7 @@ function isActive($active, $expected) {
                     <ul>
                         <li class="submenu">
                             <a href="#" class="<?= isActive($active_menu ?? '', 'stock-karsa') ?> <?= ($active_menu ?? '') === 'stock-karsa' ? 'subdrop' : '' ?>">
-                                <i class="ti ti-package"></i><span>Stock Produk Karsa</span>
+                                <i class="fe fe-package"></i><span>Stock Produk Karsa</span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
@@ -210,17 +229,17 @@ function isActive($active, $expected) {
                         </li>
                         <li>
                             <a href="#">
-                                <i class="ti ti-package"></i><span>Stock Produk Sorting</span>
+                                <i class="fe fe-package"></i><span>Stock Produk Sorting</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="ti ti-package"></i><span>Stock Produk Raw Material</span>
+                                <i class="fe fe-package"></i><span>Stock Produk Raw Material</span>
                             </a>
                         </li>
                         <li class="submenu">
                             <a href="#">
-                                <i class="ti ti-package"></i><span>Stock Produk Karantina</span>
+                                <i class="fe fe-package"></i><span>Stock Produk Karantina</span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
@@ -236,17 +255,17 @@ function isActive($active, $expected) {
                     <ul>
                         <li>
                             <a href="#">
-                                <i class="ti ti-package"></i><span>Stock Kardus</span>
+                                <i class="fe fe-package"></i><span>Stock Kardus</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="ti ti-package"></i><span>Stock Stiker</span>
+                                <i class="fe fe-package"></i><span>Stock Stiker</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="ti ti-package"></i><span>Stock Plastik Ready</span>
+                                <i class="fe fe-package"></i><span>Stock Plastik Ready</span>
                             </a>
                         </li>
                     </ul>
@@ -256,20 +275,46 @@ function isActive($active, $expected) {
                 <li>
                     <ul>
                         <li class="submenu">
-                            <a href="#">
-                                <i class="ti ti-package"></i><span>Perencanaan Produksi</span>
+                            <a href="#" class="<?= isActive($active_menu ?? '', 'data-pendukung-produksi') ?> <?= ($active_menu ?? '') === 'data-pendukung-produksi' ? 'subdrop' : '' ?>">
+                                <i class="fe fe-file-text"></i><span>Data Pendukung Produksi</span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
-                                <li><a href="#">Kalender Produksi</a></li>
-                                <li><a href="#">Jadwal Produksi</a></li>
+                                <li>
+                                    <a href="data-pendukung-produksi.php?action=jenis-produksi" class="<?= isActive($active_submenu  ?? '', 'jenis-produksi') ?>">
+                                        Jenis Produksi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="data-pendukung-produksi.php?action=jenis-pengerjaan" class="<?= isActive($active_submenu  ?? '', 'jenis-pengerjaan') ?>">
+                                        Jenis Pengerjaan
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#" class="<?= isActive($active_menu ?? '', 'perencanaan-produksi') ?> <?= ($active_menu ?? '') === 'perencanaan-produksi' ? 'subdrop' : '' ?>">
+                                <i class="fe fe-file-text"></i><span>Perencanaan Produksi</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="#" class="<?= isActive($active_submenu  ?? '', 'kalender-produksi') ?>">
+                                        Kalender Produksi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="perencanaan-produksi.php?action=spk-produksi" class="<?= isActive($active_submenu  ?? '', 'spk-produksi') ?>">
+                                        SPK Produksi
+                                    </a>
+                                </li>
                                 <li><a href="#">Permintaan Barang</a></li>
                                 <li><a href="#">Analisis Produksi</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
                             <a href="#" class="<?= isActive($active_menu ?? '', 'perawatan-alat-mesin') ?> <?= ($active_menu ?? '') === 'perawatan-alat-mesin' ? 'subdrop' : '' ?>">
-                                <i class="ti ti-tool"></i><span>Perawatan Alat & Mesin</span>
+                                <i class="fe fe-clipboard"></i><span>Perawatan Alat & Mesin</span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
@@ -302,7 +347,7 @@ function isActive($active, $expected) {
                         </li>
                         <li>
                             <a href="<?= $domain_sticker ?>">
-                                <i class="ti ti-package"></i><span>Permintaan Stiker</span>
+                                <i class="fe fe-file"></i><span>Permintaan Stiker</span>
                             </a>
                         </li>
                     </ul>							
@@ -312,12 +357,12 @@ function isActive($active, $expected) {
                     <ul>
                         <li>
                             <a href="#">
-                                <i class="ti ti-column-insert-left"></i><span>Material Consumption Log</span>
+                                <i class="fe fe-column-insert-left"></i><span>Material Consumption Log</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="ti ti-column-insert-left"></i><span>Supplier Quality Log</span>
+                                <i class="fe fe-column-insert-left"></i><span>Supplier Quality Log</span>
                             </a>
                         </li>
                     </ul>
@@ -327,7 +372,7 @@ function isActive($active, $expected) {
                     <ul>
                         <li class="submenu">
                             <a href="#">
-                                <i class="ti ti-package"></i><span>Surat Menyurat</span>
+                                <i class="fe fe-package"></i><span>Surat Menyurat</span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
@@ -337,7 +382,7 @@ function isActive($active, $expected) {
                         </li>
                        <li class="submenu">
                             <a href="#">
-                                <i class="ti ti-package"></i><span>Procedure</span>
+                                <i class="fe fe-package"></i><span>Procedure</span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul>
@@ -347,17 +392,17 @@ function isActive($active, $expected) {
                         </li>
                         <li>
                             <a href="#">
-                                <i class="ti ti-column-insert-left"></i><span>Sertifikat / ISO</span>
+                                <i class="fe fe-column-insert-left"></i><span>Sertifikat / ISO</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="ti ti-column-insert-left"></i><span>Dokumen Produksi</span>
+                                <i class="fe fe-column-insert-left"></i><span>Dokumen Produksi</span>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <i class="ti ti-column-insert-left"></i><span>Dokumen Registrasi</span>
+                                <i class="fe fe-column-insert-left"></i><span>Dokumen Registrasi</span>
                             </a>
                         </li>
                     </ul>

@@ -1,14 +1,11 @@
-
 $(document).ready(function () {
+
     // ================================
     // SIMPAN STATE AWAL TOMBOL (GLOBAL)
     // ================================
     const originalBtnText = $('#btnSimpanText').text();
     const originalBtnIconClass = $('#btnSimpanIcon').attr('class');
 
-    // ================================
-    // HANDLE SUBMIT FORM
-    // ================================
     $('#saveForm').on('submit', function (event) {
         event.preventDefault();
 
@@ -19,7 +16,7 @@ $(document).ready(function () {
         $(this).data('submitted', true);
 
         // Disable semua tombol dalam #formButtons
-        $('#formButtons button').prop('disabled', true);
+        $('#formButtons button').attr('disabled', true);
 
         // Ubah tampilan tombol → loading
         $('#btnSimpanText').text('Dalam Proses...');
@@ -27,7 +24,6 @@ $(document).ready(function () {
             .removeClass()
             .addClass('fe fe-loader animate-spin');
 
-        // Delay 0,5 detik (opsional UX)
         setTimeout(() => {
 
             const formData = new FormData(document.getElementById('saveForm'));
@@ -41,6 +37,7 @@ $(document).ready(function () {
                 processData: false,
                 contentType: false,
                 xhrFields: { withCredentials: true },
+                xhr: () => new window.XMLHttpRequest(),
 
                 success: function (response) {
                     resetSimpanButton();
@@ -49,6 +46,8 @@ $(document).ready(function () {
                     try {
                         res = JSON.parse(response);
                     } catch (e) {
+                        console.error('JSON Parse Error:', e);
+                        console.error('Raw response:', response);
                         showError('Terjadi kesalahan sistem.');
                         enableForm();
                         return;
@@ -74,7 +73,8 @@ $(document).ready(function () {
                     }
                 },
 
-                error: function () {
+                error: function (xhr) {
+                    console.error('AJAX Error:', xhr.responseText);
                     resetSimpanButton();
                     showError('Terjadi kesalahan. Silakan coba lagi.');
                     enableForm();
@@ -93,7 +93,7 @@ $(document).ready(function () {
     }
 
     function enableForm() {
-        $('#formButtons button').prop('disabled', false);
+        $('#formButtons button').attr('disabled', false);
         $('#saveForm').data('submitted', false);
     }
 

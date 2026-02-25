@@ -1,2 +1,0 @@
-[2025-10-01 20:28:22] File asli: Gemini_Generated_Image_2pvsq82pvsq82pvs.png (924691 bytes), Cipher(base64): 1232940 chars, Cipher(bin): 924704 bytes, IV(base64): 24 chars, IV(bin): 16 bytes, Signature(base64): 96 chars, Signature(bin): 70 bytes
-[2025-10-01 20:41:10] File asli: Ramathibody Manipulator.png (1106166 bytes), Cipher(base64): 1474904 chars, Cipher(bin): 1106176 bytes, IV(base64): 24 chars, IV(bin): 16 bytes, Signature(base64): 96 chars, Signature(bin): 71 bytes

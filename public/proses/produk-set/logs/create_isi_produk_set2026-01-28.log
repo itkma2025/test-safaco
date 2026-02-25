@@ -1,0 +1,60 @@
+{
+    "timestamp": "2026-01-28 11:54:47",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk_set": "PRD_SET_aIpOb8r9tDpsIT02vf05PHAYrGcOSQYA",
+        "id_isi_produk_set": "ISI_SET_gY37FnmTSNwV1Z6ut1PbavaxYlrSQYA",
+        "routes": "produk-set",
+        "action": "4CSMN5QR2SlYh_WgVYJF6fDn20vla8AxO2Vve_pL5Z4",
+        "csrf_token": "bcb72c22fae91fd14705cac0b8aa47ca",
+        "id_produk": "PRD_KpzOAHPboYG0wTfW0832aOOt1uncRwYA",
+        "qty": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Qty wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2026-01-28 11:54:51",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk_set": "PRD_SET_aIpOb8r9tDpsIT02vf05PHAYrGcOSQYA",
+        "id_isi_produk_set": "ISI_SET_gY37FnmTSNwV1Z6ut1PbavaxYlrSQYA",
+        "routes": "produk-set",
+        "action": "4CSMN5QR2SlYh_WgVYJF6fDn20vla8AxO2Vve_pL5Z4",
+        "csrf_token": "bcb72c22fae91fd14705cac0b8aa47ca",
+        "id_produk": "PRD_KpzOAHPboYG0wTfW0832aOOt1uncRwYA",
+        "qty": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Qty wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2026-01-28 14:03:19",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk_set": "nE9g-jpyVFv3X-FnHughT6Q-re3ihI9M9in7yaTWHJ7Ibsh3PYsj7ehyw8GEx-Sps0q6G3usXot68q5V7i04Fw",
+        "id_isi_produk_set": "zIkgKnR1e4IVdMBZ6E4ueb9lcH4ObF7GLUcURY6odIIb8thEXdtEGtOlF8Mq5JfoPzHY5TKV0oJCpnSJ5EtHuQ",
+        "routes": "produk-set",
+        "action": "MozcM5NWVCu7pSGaJ9pbc5tfXqh5nM7T_I3Nrcj8NAs",
+        "csrf_token": "1f036127f944b2f307898caf5a7dd7b9",
+        "id_produk": "PRD_wonWoK8SqaRRPGlsr6qmH4xfuNSAYA",
+        "qty": "1",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID isi set maksimal 50 karakter."
+    ]
+}
+

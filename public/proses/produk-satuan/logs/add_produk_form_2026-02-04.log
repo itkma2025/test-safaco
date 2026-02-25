@@ -1,0 +1,29 @@
+{
+    "timestamp": "2026-02-04 19:36:50",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_jenis_produksi": "JENPRO_TOSWN2do5mG2F2tgDXMfvYKMSQYA",
+        "routes": "jenis-produksi",
+        "action": "lv2B1O6GfEVeQId5HC0ayKiaeyupw8CFfP9UjaA8ix8",
+        "csrf_token": "d90b6fe76cb19524784099795e67b874",
+        "nama_jenis_produksi": "AAAA",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID produk wajib diisi.",
+        "ID produk master wajib diisi.",
+        "Kode produk wajib diisi.",
+        "Kode katalog wajib diisi.",
+        "Nama produk wajib diisi.",
+        "Kategori produk wajib diisi.",
+        "Satuan produk wajib diisi.",
+        "validation.required",
+        "Kategori penjualan produk wajib diisi.",
+        "Grade produk wajib diisi.",
+        "Lokasi produk wajib diisi.",
+        "Deskripsi produk wajib diisi."
+    ]
+}
+

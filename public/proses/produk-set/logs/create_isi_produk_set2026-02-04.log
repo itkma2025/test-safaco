@@ -1,0 +1,62 @@
+{
+    "timestamp": "2026-02-04 09:37:45",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk_set": "2AX6dO5M9WuW3SCX25LmBgRelUV5lMv2CIwSWboES3uQVPzDbx1X7IHbfcx9y0EcgFa-uG-PNrkyK59lIpNQsw",
+        "id_isi_produk_set": "ae87qc51155-ro2kXOYlOZKKQ2-myGBpa9NdI6-lt4oRiUq362pt5tZyr1oBRDkoHnhDrBuqyW9CRTjQr8nPsg",
+        "routes": "produk-set",
+        "action": "yJNiUGj2wDMPdH-NhqGwi5dIzAbWsVvdKxZGc1BPwaA",
+        "csrf_token": "e3035d1c2e12282d72c5fa9fc009202c",
+        "id_produk": "30lwPr9zwIURGBTZfEKCMC-l40qPiDfM0HmK3TN3Pw1A9B4I_jS0MafR72Lm94Q7xGlr4SE5j8ErLU4fneDvcw",
+        "qty": "10",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID isi set maksimal 50 karakter.",
+        "Nama Produk maksimal 50 karakter."
+    ]
+}
+
+{
+    "timestamp": "2026-02-04 09:37:56",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk_set": "2AX6dO5M9WuW3SCX25LmBgRelUV5lMv2CIwSWboES3uQVPzDbx1X7IHbfcx9y0EcgFa-uG-PNrkyK59lIpNQsw",
+        "id_isi_produk_set": "ae87qc51155-ro2kXOYlOZKKQ2-myGBpa9NdI6-lt4oRiUq362pt5tZyr1oBRDkoHnhDrBuqyW9CRTjQr8nPsg",
+        "routes": "produk-set",
+        "action": "yJNiUGj2wDMPdH-NhqGwi5dIzAbWsVvdKxZGc1BPwaA",
+        "csrf_token": "e3035d1c2e12282d72c5fa9fc009202c",
+        "id_produk": "jVYc6code5QEAyjnNdE61PBgT91YZ8O0571Zz1giYYBJ4FVC-nqBMNrw3En4MwY0kU8I88B7Oh3OAVK_PGTg9A",
+        "qty": "10",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID isi set maksimal 50 karakter.",
+        "Nama Produk maksimal 50 karakter."
+    ]
+}
+
+{
+    "timestamp": "2026-02-04 09:38:57",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk_set": "saOG3WPDDTyH3etdioyxbHpsIqsjlV69r4U3zNpoHfGuifilY3AA2dq8ti8XGsxfjkzDNT9iEAKBu6XpkHtu5Q",
+        "id_isi_produk_set": "Ny94akDNucCYFr-JAUuR3Vw3QkHT6mA5nLEwz2tLI4lAiWYOmq57YCe1RtdDyM2HtjdaOKluVsP2bR17A-IaVg",
+        "routes": "produk-set",
+        "action": "GcbPg8DtRAfc219MsVkFdbCoBYhVwg2_YWUwhAvNi9Y",
+        "csrf_token": "e3035d1c2e12282d72c5fa9fc009202c",
+        "id_produk": "ju9l9EzEljc3wbi0umF-GrPzkyU3FvxyPvQaa_vXguH13KmXQmV5yJ9JXR0ovQRPXg3LAraJUuH8S9sSmjTVWg",
+        "qty": "1",
+        "honeypot": ""
+    },
+    "errors": [
+        "Nama Produk maksimal 50 karakter."
+    ]
+}
+

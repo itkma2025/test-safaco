@@ -63,7 +63,7 @@
                     <form method="POST" id="saveForm">
                         <div class="modal-body">
                             <input type="hidden" class="form-control" name="id_produk" value="<?= $sanitasi_post['id']; ?>">
-                            <input type="hidden" class="form-control" name="routes" value="produk">
+                            <input type="hidden" class="form-control" name="routes" value="produk-satuan">
                             <input type="hidden" class="form-control" name="action" value="<?= encryptId('delete', $key_akses); ?>">
                             <input type="hidden" class="w-full max-w-full input border mt-2" name="csrf_token" value="<?= $_SESSION['csrf_token']; ?>">
                         </div>

@@ -28,9 +28,9 @@ if (!$id) {
 }
 
 $db_safaco = DB::connection('safaco');
-// Query gambar produk
-$queryGambar = $db_safaco->table('produk as p')
-    ->leftJoin("produk_gambar as pg", 'p.id_produk', '=', 'pg.id_produk')
+// Query gambar produk satuan
+$queryGambarSatuan = $db_safaco->table('produk_satuan as p')
+    ->leftJoin("produk_gambar_satuan as pg", 'p.id_produk', '=', 'pg.id_produk')
     ->select(
         'p.id_produk',
         'pg.filename',
@@ -41,6 +41,20 @@ $queryGambar = $db_safaco->table('produk as p')
         'pg.key_file'
     )
     ->where('p.id_produk', $id_decrypt);
+
+// Query gambar produk set
+$queryGambarSet = $db_safaco->table('produk_set as p')
+    ->leftJoin("produk_gambar_set as pg", 'p.id_produk_set', '=', 'pg.id_produk_set')
+    ->select(
+        'p.id_produk_set',
+        'pg.filename',
+        'pg.mime_type',
+        'pg.file_path',
+        'pg.iv',
+        'pg.signature',
+        'pg.key_file'
+    )
+    ->where('p.id_produk_set', $id_decrypt);
 
 // Query gambar alat mesin
 $queryGambarAlatMesin = $db_safaco->table('alat_mesin as am')
@@ -57,9 +71,30 @@ $queryGambarAlatMesin = $db_safaco->table('alat_mesin as am')
     ->where('am.id_alat_mesin', $id_decrypt);
 
 // Ambil data: prioritaskan produk_gambar, kalau null ambil alat_mesin_gambar
-$data_gambar = $queryGambar->first();
-if (!$data_gambar || !$data_gambar->filename) {
-    $data_gambar = $queryGambarAlatMesin->first();
+$data_gambar = null;
+
+// 1. Cek gambar produk satuan
+$data_gambar = $queryGambarSatuan->first();
+
+if (empty($data_gambar) || empty($data_gambar->filename)) {
+
+    // 2. Cek gambar produk set
+    $data_gambar = $queryGambarSet->first();
+
+    if (empty($data_gambar) || empty($data_gambar->filename)) {
+
+        // 3. Cek gambar alat mesin
+        $data_gambar = $queryGambarAlatMesin->first();
+    }
+}
+
+// ===============================
+// FALLBACK JIKA TIDAK ADA GAMBAR
+// ===============================
+if (empty($data_gambar) || empty($data_gambar->filename)) {
+    header('Content-Type: image/jpeg');
+    readfile(base_path('public/assets/img/no_img.jpg'));
+    exit;
 }
 
 try {

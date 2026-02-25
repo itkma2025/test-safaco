@@ -1,0 +1,28 @@
+{
+    "timestamp": "2026-02-10 16:23:48",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_spk_produksi": "<br \/>\r\n<b>Warning<\/b>:  Undefined variable $id_spk_produksi in <b>D:\\laragon\\www\\SSO-KARSA\\sistem-safaco\\public\\ajax\\perencanaan-produksi\\spk-produksi\\form-spk-produksi.php<\/b> on line <b>71<\/b><br \/>\r\n",
+        "routes": "spk-produksi",
+        "action": "f3YnaLw0yecEC3r-33DYHCCSfydXvwCPxa5-vDd8JCA",
+        "csrf_token": "9a15de275ec3f8f684ba57ec3253a145",
+        "no_spk": "001\/SPK\/II\/2026",
+        "nama_spk": "AAAA",
+        "tgl_spk": "2026-02-10",
+        "tgl_mulai": "2026-02-09T00:00",
+        "tgl_akhir": "2026-02-09T00:00",
+        "id_jenis_produksi": "JENPRO_CvqFr4RXcmRx2ys9tuXMhlUIKSgYA",
+        "id_jenis_pengerjaan": "JENPRO_e5MNat4PRs4jHyno7OeQcK558eSgYA",
+        "prioritas_produksi": "Normal",
+        "status_spk": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID SPK Produksi maksimal 50 karakter.",
+        "Status wajib diisi.",
+        "validation.required"
+    ]
+}
+

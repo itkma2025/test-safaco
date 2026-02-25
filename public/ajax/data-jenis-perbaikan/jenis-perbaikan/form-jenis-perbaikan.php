@@ -63,7 +63,7 @@
                 <input type="text" name="nama_jenis_perbaikan" class="form-control" maxlength="100" oninput="filterTextOnly(this)" value="<?= $nama_jenis_perbaikan ?>" required>
             </div>
         </div>
-        <!-- Deskripsi -->
+        <!-- Kategori -->
         <div class="mb-3 row">
             <label class="form-label col-md-3">Nama Kategori Perbaikan</label>
             <div class="col-md-9">
@@ -88,8 +88,8 @@
                         </option>
                     <?php endforeach ?>
                 </select>
+            <div>
         </div>
-
     </div>
     <!-- Honeypot Field: Tersembunyi dari Pengguna -->
     <div style="display:none;">

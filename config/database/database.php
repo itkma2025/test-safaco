@@ -91,6 +91,19 @@ $connect->addConnection([
     'port'      => 3310,
 ], 'supplier'); // nama koneksi lain
 
+// Koneksi DB Inventory Karsa
+$connect->addConnection([
+    'driver'    => 'mysql',
+    'host'      => 'localhost',
+    'username'  => 'root',
+    'password'  => '',
+    'database'  => 'test_inventory2026',
+    'charset'   => 'utf8mb4',
+    'collation' => 'utf8mb4_unicode_ci',
+    'prefix'    => '',
+    'port'      => 3310,
+], 'inventory_karsa'); // nama koneksi lain
+
 // Hosting
 
 // Koneksi DB safaco
@@ -176,6 +189,9 @@ if ($debugDatabase) {
 
         $connect->getConnection('supplier')->getPdo();
         // echo "✅ Koneksi supplier produk berhasil.<br>";
+
+         $connect->getConnection('inventory_karsa')->getPdo();
+        // echo "✅ Koneksi inventory karsa berhasil.<br>";
 
     } catch (\PDOException $e) {
         die("❌ Koneksi gagal: " . $e->getMessage());

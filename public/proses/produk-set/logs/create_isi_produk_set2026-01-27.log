@@ -1,0 +1,20 @@
+{
+    "timestamp": "2026-01-27 16:51:31",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk_set": "PRD_SET_aIpOb8r9tDpsIT02vf05PHAYrGcOSQYA",
+        "id_isi_produk_set": "ISI_SET_xoqp62D5lvB32GYakMjLCocEpFbSQYA",
+        "routes": "produk-set",
+        "action": "Qv8qi08B1n7wytd6Ifo3Ggx-rUbkB6bLm15Xxgw7Rjo",
+        "csrf_token": "91f31550be85e2039549f5239e1c2ac7",
+        "id_produk": "PRD_KpzOAHPboYG0wTfW0832aOOt1uncRwYA",
+        "qty": "1",
+        "honeypot": ""
+    },
+    "errors": [
+        "ID isi set wajib diisi."
+    ]
+}
+

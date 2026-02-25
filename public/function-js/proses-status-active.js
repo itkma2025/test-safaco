@@ -5,9 +5,9 @@ $(document).ready(function () {
         var action      = $(this).data("action");
         var routename   = $(this).data("routename");
 
-        // console.log(id);
-        // console.log(status);
-        // console.log(routeName);
+        console.log(id);
+        console.log(status);
+        console.log(routename);
 
         $.ajax({
             url: "routes/" + routename + ".php", 
@@ -19,7 +19,7 @@ $(document).ready(function () {
                     action: action
                 },
             success: function (response) {
-                // console.log("Server response:", response);
+                console.log("Server response:", response);
                 // Jika response JSON string, parse dulu
                 let res = typeof response === 'string' ? JSON.parse(response) : response;
 
@@ -48,7 +48,7 @@ $(document).ready(function () {
                 Swal.fire({
                     icon: 'error',
                     title: 'Gagal!',
-                    text: 'Gagal update status, silahkan refresh browser.',
+                    text: 'Gagal update status.',
                 }).then(() => {
                     location.reload(); // reload halaman
                 });

@@ -1,0 +1,28 @@
+{
+    "timestamp": "2026-02-16 13:21:18",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_spk_produksi": "",
+        "id_produk": "PRD_KpzOAHPboYG0wTfW0832aOOt1uncRwYA"
+    },
+    "errors": [
+        "ID SPK Produksi wajib diisi."
+    ]
+}
+
+{
+    "timestamp": "2026-02-16 13:21:19",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_spk_produksi": "",
+        "id_produk": "PRD_wonWoK8SqaRRPGlsr6qmH4xfuNSAYA"
+    },
+    "errors": [
+        "ID SPK Produksi wajib diisi."
+    ]
+}
+

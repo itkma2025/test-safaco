@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-02-10 16:32:26",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/144.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_spk_produksi": "SPK_gXwZHaAErOJ81gXE9NOvTO73BTxjSgYA",
+        "routes": "spk-produksi",
+        "action": "-mg2LUjQyga9_CPFexRjUF9EtuoLyQpluKKunDK3HEI",
+        "csrf_token": "9a15de275ec3f8f684ba57ec3253a145",
+        "no_spk": "001\/SPK\/II\/2026",
+        "nama_spk": "AAAA",
+        "tgl_spk": "2026-02-10",
+        "tgl_mulai": "2026-02-09T00:00",
+        "tgl_akhir": "2026-02-09T00:00",
+        "id_jenis_produksi": "JENPRO_CvqFr4RXcmRx2ys9tuXMhlUIKSgYA",
+        "id_jenis_pengerjaan": "JENPRO_e5MNat4PRs4jHyno7OeQcK558eSgYA",
+        "prioritas_produksi": "Low",
+        "honeypot": ""
+    },
+    "errors": [
+        "Status wajib diisi.",
+        "validation.required"
+    ]
+}
+

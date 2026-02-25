@@ -1,0 +1,27 @@
+{
+    "timestamp": "2026-01-23 13:50:51",
+    "type": "validation_error",
+    "ip_address": "::1",
+    "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/143.0.0.0 Safari\/537.36",
+    "post_data": {
+        "id_produk_set": "07VXu9nKE5yxWKkXU-sEB_NA-V3YXGwRpi4T-0vu-BBv8Qz60hcaRO9pXfF1DEsiZfkFQSG-8U5_JFV3N5Jjtg",
+        "routes": "produk-set",
+        "action": "dhOFb0ecxY7_-8sT3G13AtHRSxEObOVG-FvV6_mN6Pc",
+        "csrf_token": "bdc9125ff99e4323b6a0de5b68966a27",
+        "id_produk_master": "PM_jb9cKn8effD6LViVo0vrIVGBgA",
+        "kode_produk_set": "BR001",
+        "nama_produk_set": "Abdominal Set",
+        "id_kategori_produk": "KATPROD00d2707ee1a1",
+        "harga": "10.000",
+        "id_kategori_penjualan": "KAT_JUAL_m9HmtPJ0YuTLwYtdpa8i4xb1T53QAYA",
+        "id_grade_produk": "GRD_1xniEZ3sXYdOB5vVyAh5pFHMWEJ3QAYA",
+        "id_lokasi": "LOK_CfnivUwFfur0NLJics0D1IuXpS1PQYA",
+        "deskripsi_produk": "<p>Abdominal Operation Set adalah paket lengkap instrumen bedah yang digunakan khusus untuk operasi abdomen. Set ini mencakup berbagai alat yang dibutuhkan untuk insisi, retraksi, penjahitan, dan diseksi jaringan abdominal.<\/p>",
+        "dataFileName": "",
+        "honeypot": ""
+    },
+    "errors": [
+        "Kode katalog wajib diisi."
+    ]
+}
+

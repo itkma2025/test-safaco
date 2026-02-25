@@ -60,8 +60,6 @@
                             <th class="text-center" style="min-width: 400px;">Kategori Penjualan</th>
                             <th class="text-center" style="min-width: 120px;">Min Stock</th>
                             <th class="text-center" style="min-width: 120px;">Max Stock</th>
-                            <th class="text-center" style="min-width: 120px;">Min Stock Ready</th>
-                            <th class="text-center" style="min-width: 120px;">Max Stock Ready</th>
                             <th class="text-center" style="min-width: 120px;">Status Active</th>
                             <th class="text-center" style="min-width: 120px;">Aksi</th>
                         </tr>
@@ -80,8 +78,6 @@
                                     <td class="align-middle"><?= htmlspecialchars($row->kategori_penjualan) ?></td>
                                     <td class="align-middle text-center"><?= number_format($row->min_stock, 0,'.','.') ?></td>
                                     <td class="align-middle text-center"><?= number_format($row->max_stock, 0,'.','.') ?></td>
-                                    <td class="align-middle text-center"><?= number_format($row->min_stock_ready, 0,'.','.') ?></td>
-                                    <td class="align-middle text-center"><?= number_format($row->max_stock_ready, 0,'.','.') ?></td>
                                     <td class="align-middle text-center">
                                         <div class="form-switch">
                                             <input class="form-check-input updateStatus" type="checkbox" value="" id="checkNativeSwitch" <?= $checked_active ?> data-id="<?= encryptId($id_kategori, $key_akses) ?>" data-status="<?= $status_active ?>" data-action="<?= encryptId('update_status_kategori', $key_akses) ?>" data-routename="kategori-penjualan" switch>
