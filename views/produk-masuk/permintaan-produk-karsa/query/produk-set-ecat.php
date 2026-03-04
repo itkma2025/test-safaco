@@ -40,13 +40,14 @@ $id_spk_produksi = $id_spk_produksi !== null ? trim($id_spk_produksi) : null;
 ================================ */
 $db_safaco   = DB::connection('safaco');
 $db_kat_prod = DB::connection('kat_produk');
+$db_inventory_karsa = DB::connection('inventory_karsa');
 
 /* ===============================
    3. BASE QUERY (SAFACO ONLY)
 ================================ */
 $baseQuery = $db_safaco
-    ->table('produk_satuan as ps')
-    ->leftJoin('produk_gambar_satuan as pgs', 'ps.id_produk', '=', 'pgs.id_produk')
+    ->table('produk_set as ps')
+    ->leftJoin('produk_gambar_set as pgs', 'ps.id_produk_set', '=', 'pgs.id_produk_set')
     ->leftJoin('produk_grade as pg', 'ps.id_grade_produk', '=', 'pg.id_grade_produk')
     ->where('ps.status_active', '1');
 
@@ -61,8 +62,8 @@ $recordsTotal = $totalQuery->count();
 ================================ */
 if ($search !== '') {
     $baseQuery->where(function ($q) use ($search) {
-        $q->where('ps.kode_produk', 'like', "%{$search}%")
-          ->orWhere('ps.nama_produk', 'like', "%{$search}%");
+        $q->where('ps.kode_produk_set', 'like', "%{$search}%")
+          ->orWhere('ps.nama_produk_set', 'like', "%{$search}%");
     });
 }
 
@@ -75,18 +76,18 @@ $recordsFiltered = $filteredQuery->count();
 /* ===============================
    7. ORDER
 ================================ */
-$baseQuery->orderBy('ps.nama_produk', 'asc');
+$baseQuery->orderBy('ps.nama_produk_set', 'asc');
 
 /* ===============================
    8. DATA (SAFACO)
 ================================ */
 $rows = $baseQuery
     ->select(
-        'ps.id_produk',
-        'ps.kode_produk',
-        'ps.nama_produk',
+        'ps.id_produk_set',
+        'ps.id_produk_master',
+        'ps.kode_produk_set',
+        'ps.nama_produk_set',
         'ps.id_kategori_produk',
-        'ps.satuan_produk',
         'pg.grade',
         'pgs.filename'
     )
@@ -107,9 +108,34 @@ if (!empty($id_spk_produksi)) {
 }
 
 /* ===============================
-   9b. Ambil kategori+merk dari DB kat_produk (sekali saja)
+   9b. Ambil nama produk karsa dari DB inventory karsa (sekali saja)
 ================================ */
-$idKategoriList = $rows->pluck('id_kategori_produk')
+$idProdukKarsa = $rows->pluck('id_produk_master')
+    ->filter()
+    ->unique()
+    ->values()
+    ->toArray();
+
+$produkKarsaMap = collect();
+if (!empty($idProdukKarsa)) {
+    $produkKarsaMap = $db_inventory_karsa
+        ->table('tb_produk_set_ecat as tpse')
+        ->whereIn('tpse.id_produk_master', $idProdukKarsa)
+        ->select(
+            'tpse.id_set_ecat',
+            'tpse.id_produk_master',
+            'tpse.kode_set_ecat',
+            'tpse.nama_set_ecat',
+            'tpse.id_kat_produk'
+        )
+        ->get()
+        ->keyBy('id_produk_master');
+}
+
+/* ===============================
+   9c. Ambil kategori+merk dari DB kat_produk (sekali saja)
+================================ */
+$idKategoriList = $produkKarsaMap->pluck('id_kat_produk')
     ->filter()
     ->unique()
     ->values()
@@ -138,16 +164,25 @@ $data = [];
 $no = $start + 1;
 
 foreach ($rows as $row) {
+     // nama produk karsa (hasil mapping)
+    $prdKarsa = $produkKarsaMap[$row->id_produk_master] ?? null;
+    $id_produk_karsa = $prdKarsa->id_set_ecat ?? '-';
+    $kode_produk_karsa = $prdKarsa->kode_set_ecat ?? '-';
+    $nama_produk_karsa = $prdKarsa->nama_set_ecat ?? '-';
+
+    if (!$prdKarsa) {
+        continue;
+    }
 
     // kategori + merk (hasil mapping)
-    $kat = $kategoriMap[$row->id_kategori_produk] ?? null;
+    $kat = $kategoriMap->get($prdKarsa->id_kat_produk);
     $namaKategori = $kat->nama_kategori ?? '-';
     $nie     = $kat->no_izin_edar ?? '-';
 
     // gambar
     $gambar = 'Tidak ada foto';
     if (!empty($row->filename)) {
-        $imgSrc = 'view-img.php?id=' . encryptId($row->id_produk, $key_akses);
+        $imgSrc = 'view-img.php?id=' . encryptId($row->id_produk_set, $key_akses);
         $gambar = "
             <a href='{$imgSrc}' data-fancybox data-width='1600' data-height='1200'>
                 <img src='{$imgSrc}' class='img-fluid img-produk-master' alt='Produk'>
@@ -155,18 +190,19 @@ foreach ($rows as $row) {
     }
 
     // disabled jika sudah ada
-    $disable_button = in_array($row->id_produk, $id_produk_list) ? 'disabled' : '';
+    $disable_button = in_array($row->id_produk_set, $id_produk_list) ? 'disabled' : '';
 
     $aksi = "
         <button class='btn btn-sm btn-primary selectProduk' {$disable_button}
             data-id-spk=\"" . htmlspecialchars($id_spk_produksi ?? '') . "\"
-            data-id-produk=\"" . htmlspecialchars($row->id_produk) . "\"
-            data-kode-produk=\"" . htmlspecialchars($row->kode_produk) . "\"
-            data-nama-produk=\"" . htmlspecialchars($row->nama_produk) . "\"
+            data-id-produk=\"" . htmlspecialchars($row->id_produk_set) . "\"
+            data-id-produk-karsa=\"" . htmlspecialchars($id_produk_karsa) . "\"
+            data-kode-produk=\"" . htmlspecialchars($kode_produk_karsa) . "\"
+            data-nama-produk=\"" . htmlspecialchars($nama_produk_karsa) . "\"
             data-nama-kategori=\"" . htmlspecialchars($namaKategori) . "\"
             data-nama-merk=\"" . htmlspecialchars($kat->nama_merk ?? '-') . "\"
             data-nama-grade=\"" . htmlspecialchars($row->grade ?? '-') . "\"
-            data-satuan=\"" . htmlspecialchars($row->satuan_produk ?? '-') . "\"
+            data-satuan=\"" . htmlspecialchars('Set') . "\"
         >
             Pilih
         </button>
@@ -174,9 +210,9 @@ foreach ($rows as $row) {
 
     $data[] = [
         "<div class='align-middle text-center'>{$no}</div>",
-        "<div class='align-middle text-center'>" . htmlspecialchars($row->kode_produk) . "</div>",
-        "<div class='align-middle'>" . htmlspecialchars($row->nama_produk) . "</div>",
-        "<div class='align-middle text-center text-wrap'>" . htmlspecialchars($namaKategori) . "</div>",
+        "<div class='align-middle text-center'>" . htmlspecialchars($kode_produk_karsa) . "</div>",
+        "<div class='align-middle'>" . $nama_produk_karsa ?? '-' . "</div>",
+        "<div class='align-middle text-center text-wrap'>" . $namaKategori . "</div>",
         "<div class='align-middle text-center text-wrap'>" . htmlspecialchars($nie) . "</div>",
         "<div class='align-middle text-center'>{$aksi}</div>",
     ];

@@ -43,7 +43,7 @@ function tampilkanProduk() {
                 <td class="text-center">0</td>
                 <td class="text-center">
                     <button class="btn btn-sm btn-danger btnHapus" data-id="${item.idProduk}">
-                        Hapus
+                        <i class="fe fe-trash"></i>
                     </button>
                 </td>
             </tr>
@@ -89,13 +89,14 @@ function cekProdukTerpilih() {
 $(document).on("click", ".selectProduk", function () {
     const $btn = $(this);
 
-    const idProduk     = $(this).data("id-produk");
-    const kodeProduk   = $(this).data("kode-produk");
-    const namaProduk   = $(this).data("nama-produk");
-    const namaKategori = $(this).data("nama-kategori");
-    const namaMerk     = $(this).data("nama-merk");
-    const namaGrade    = $(this).data("nama-grade");
-    const satuan       = $(this).data("satuan");
+    const idProduk      = $(this).data("id-produk");
+    const idProdukKarsa = $(this).data("id-produk-karsa");
+    const kodeProduk    = $(this).data("kode-produk");
+    const namaProduk    = $(this).data("nama-produk");
+    const namaKategori  = $(this).data("nama-kategori");
+    const namaMerk      = $(this).data("nama-merk");
+    const namaGrade     = $(this).data("nama-grade");
+    const satuan        = $(this).data("satuan");
 
     $btn.prop("disabled", true).text("Pilih");
 
@@ -108,6 +109,7 @@ $(document).on("click", ".selectProduk", function () {
     if (!sudahAda) {
         produkList.push({
             idProduk: idProduk,
+            idProdukKarsa: idProdukKarsa,
             kodeProduk: kodeProduk,
             namaProduk: namaProduk,
             namaKategori: namaKategori,
@@ -119,10 +121,22 @@ $(document).on("click", ".selectProduk", function () {
 
     // Simpan kembali
     localStorage.setItem("selectedProduk", JSON.stringify(produkList));
+
+    toggleButton();
 });
 
 // Proses simpan permintaan produk
 $("#btnProses").on("click", function () {
+    let btn = $(this);
+
+    // Disable semua button dalam container
+    $(".btnAdd").prop("disabled", true);
+    $("#btnProses").prop("disabled", true);
+    $("#batalPermintaan").prop("disabled", true);
+
+    // Tambahkan loading di tombol proses
+    btn.html(`<span class="spinner-border spinner-border-sm me-2"></span> Memproses...`);
+
     let csrf_token           = $("#csrf_token").val();
     let id_permintaan_barang = $("#id_permintaan_barang").val();
     let no_permintaan        = $("#no_permintaan").val();
@@ -153,6 +167,10 @@ $("#btnProses").on("click", function () {
     for (let field of requiredFields) {
         if (!$(field.id).val()) {
             Swal.fire("Data Tidak Lengkap", field.message, "warning");
+            $(".btnAdd").prop("disabled", false);
+            $("#btnProses").prop("disabled", false);
+            $("#batalPermintaan").prop("disabled", false);
+            btn.html(`<i class="fe fe-refresh-cw me-1"></i>Proses Permintaan`);
             return;
         }
     }
@@ -180,6 +198,10 @@ $("#btnProses").on("click", function () {
 
     if (!validQty) {
         Swal.fire("Data Tidak Lengkap", "Qty minimal 1 dan tidak boleh kosong", "warning");
+        $(".btnAdd").prop("disabled", false);
+        $("#btnProses").prop("disabled", false);
+        $("#batalPermintaan").prop("disabled", false);
+        btn.html(`<i class="fe fe-refresh-cw me-1"></i>Proses Permintaan`);
         return;
     }
 
@@ -215,15 +237,27 @@ $("#btnProses").on("click", function () {
                     // Hapus localStorage dulu
                     localStorage.removeItem("selectedProduk");
 
+                    // Enabled semua button dalam container
+                    $(".btnAdd").prop("disabled", false);
+                    btn.html(`<i class="fe fe-refresh-cw me-1"></i>Proses Permintaan`);
+
                     // Reload setelah klik OK
                     location.reload();
                 });
             } else {
                 Swal.fire("Gagal", response.message, "error");
+                $(".btnAdd").prop("disabled", false);
+                $("#btnProses").prop("disabled", false);
+                $("#batalPermintaan").prop("disabled", false);
+                btn.html(`<i class="fe fe-refresh-cw me-1"></i>Proses Permintaan`);
             }
         },
         error: function (xhr) {
             Swal.fire("Server Error", xhr.responseText, "error");
+            $(".btnAdd").prop("disabled", false);
+            $("#btnProses").prop("disabled", false);
+            $("#batalPermintaan").prop("disabled", false);
+            btn.html(`<i class="fe fe-refresh-cw me-1"></i>Proses Permintaan`);
         }
     });
 });

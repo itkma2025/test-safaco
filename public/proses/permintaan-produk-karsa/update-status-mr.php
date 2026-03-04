@@ -57,21 +57,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $validator = $validatorFactory->make($sanitasi_post,
         // Rules
         [
-            'no_permintaan'    => 'required|string|max:25',
-            'tgl_permintaan'   => 'required|date',
-            'jenis_permintaan' => 'required|string|max:100',
+            'status' => 'required|string|in:Diterima,Ditolak|max:8',
+            'alasan' => 'required_if:status,Ditolak|nullable|string|max:255',
         ],
         // Custom Messages
-        [   
-            // Custom error messages kategori perbaikan
-            'no_permintaan.required'  => 'Nomor permintaan wajib diisi.',
-            'no_permintaan.max'       => 'Nomor permintaan maksimal 25 karakter.',
+        [
+            'status.required' => 'Status wajib diisi.',
+            'status.in'       => 'Status tidak valid.',
 
-            'tgl_permintaan.required' => 'Tanggal permintaan wajib diisi.',
-            'tgl_permintaan.date'     => 'Tanggal permintaan tidak valid.',
-
-            'jenis_permintaan.required' => 'Jenis permintaan wajib diisi.',
-            'jenis_permintaan.max'      => 'Jenis permintaan maksimal 100 karakter.',
+            'alasan.required_if' => 'Alasan wajib diisi jika status ditolak.',
+            'alasan.max'         => 'Alasan maksimal 255 karakter.',
         ]
     );
 
@@ -86,61 +81,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $conn = $connect->getConnection('safaco'); // koneksi safaco
         $conn->beginTransaction();
 
-        $data_check = [
-            'id_jenis_permintaan' => $sanitasi_post['jenis_permintaan'],
-        ];
-
-        $exists = $conn->table('jenis_permintaan')
-            ->where($data_check) // langsung pakai array semua kondisi
-            ->exists();
-
-        if (!$exists) {
-            echo json_encode([
-                'status'  => 'error',
-                'message' => "Gagal menyimpan data, jenis permintaan tidak di temukan."
-            ]);
-            exit;
-        }
+        $id_permintaan_barang = decryptId($sanitasi_post['id_permintaan_barang'], $key_akses);
+        $status = $sanitasi_post['status'];
+        $alasan = $sanitasi_post['alasan'];
 
         // Proses data cs
         $data_permintaan = [
-            'id_permintaan_barang' => $sanitasi_post['id_permintaan_barang'],
-            'no_permintaan'        => $sanitasi_post['no_permintaan'],
-            'tgl_permintaan'       => $sanitasi_post['tgl_permintaan'],
-            'id_jenis_permintaan'  => $sanitasi_post['jenis_permintaan'],
-            'catatan'              => $sanitasi_post['catatan'],
-            'status_permintaan'    => 'Permohonan Baru',
-            'created_by'           => $_SESSION['id_user']
+            'persetujuan_mr'        => $sanitasi_post['status'] === 'Diterima' ? '1' : '0',
+            'alasan_penolakan_mr'   => $sanitasi_post['alasan'],
+            'updated_by'            => $_SESSION['id_user']
         ];
 
         // Proses simpan
-        $conn->table('permintaan_barang_karsa')->insert($data_permintaan);
-
-        // Proses simpan detail produk
-        $produk_json = $_POST['produk'] ?? '[]';
-        $produk      = json_decode($produk_json, true);
-
-        foreach ($produk as $item) {
-            $data_detail = [
-                'id_details_permintaan' => "DTL_PERM_BRG_" . uuid(),
-                'id_permintaan_barang'  => $sanitasi_post['id_permintaan_barang'],
-                'id_produk'             => $item['idProduk'],
-                'id_produk_karsa'       => $item['idProdukKarsa'],
-                'qty_request'           => $item['qty'],
-                'created_by'            => $_SESSION['id_user']
-            ];
-
-            $conn->table('details_permintaan_barang_karsa')->insert($data_detail);
-        }
+        $conn->table('permintaan_barang_karsa')->where('id_permintaan_barang', $id_permintaan_barang)->update($data_permintaan);
         
         $conn->commit();
         echo json_encode([
             "status" => "success",
-            "message" => "berhasil disimpan",
-            "data" => [
-                "no_permintaan" => $sanitasi_post['no_permintaan'],
-                "jumlah_produk" => count($produk)
-            ]
+            "message" => "berhasil diupdate"
         ]);
         exit;
     } catch (Exception $e) {

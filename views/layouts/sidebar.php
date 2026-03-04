@@ -195,7 +195,7 @@ function isActive($active, $expected) {
                                         <a href="jenis-permintaan.php?action=view">
                                             Jenis Permintaan
                                         </a>
-                                        <a href="produk-masuk.php?action=karsa">
+                                        <a href="produk-masuk.php?action=karsa-permohonan-baru">
                                             Data Permintaan
                                         </a>
                                     </ul>

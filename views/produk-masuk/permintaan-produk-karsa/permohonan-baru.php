@@ -59,32 +59,9 @@
     <!-- Welcome Wrap -->
     <div class="card border-0">
         <div class="card-body">
-            <nav class="nav nav-style-6 nav-pills mb-3 border-bottom" role="tablist">
-                <a class="nav-link" href="#">
-                    Permohonan Baru
-                    <span class="badge bg-secondary ms-1 rounded-pill">1</span>
-                </a>
-
-                <a class="nav-link" href="#">
-                    Menunggu Persetujuan
-                    <span class="badge bg-secondary ms-1 rounded-pill">2</span>
-                </a>
-
-                <a class="nav-link" href="#">
-                    Pengembalian Barang
-                    <span class="badge bg-secondary ms-1 rounded-pill">3</span>
-                </a>
-
-                <a class="nav-link" href="#">
-                    Selesai
-                    <span class="badge bg-secondary ms-1 rounded-pill">4</span>
-                </a>
-
-                <a class="nav-link" href="#">
-                    Batal
-                    <span class="badge bg-secondary ms-1 rounded-pill">5</span>
-                </a>
-            </nav>
+            <?php  
+                require_once __DIR__ . '/navbar.php';
+            ?>
         </div>
         <div class="card-body">
             <h4 class="mb-3">Detail Permintaan Barang Internal</h4>
@@ -131,7 +108,7 @@
             <!-- Search & button -->
             <div class="d-flex flex-wrap justify-content-between align-items-center">
                 <div class="text-muted medium">
-                    <button class="btn btn-primary btn-mobile btnForm" data-bs-toggle="modal" data-bs-target="#produk">
+                    <button class="btn btn-primary btn-mobile btnAdd" data-bs-toggle="modal" data-bs-target="#produk">
                         <i class="fe fe-plus-circle me-1"></i>Tambah produk
                     </button>
                     <button class="btn btn-secondary btn-mobile" id="btnProses">
@@ -220,13 +197,4 @@
 <!-- Custom JS -->
 <script src="<?= functionJs('produk-masuk/permohonan-baru.js') ?>"></script>
 <script src="<?= functionJs('global/number-only.js') ?>"></script>
-
-<script>
-
-</script>
-
-<!-- Kode untuk batalkan permintaan -->
-<script>
-    
-</script>
 
